@@ -1,8 +1,9 @@
 # Itraconazole-Model
 Whole-body PBPK model of itraconazole as CYP3A4 and P-gp DDI perpetrator drug 
 
-![gim](https://github.com/Open-Systems-Pharmacology/Digoxin-Model/blob/master/DDI-Modeling-Network.png)
-
+<p align="center">
+  <img src="https://github.com/Open-Systems-Pharmacology/Digoxin-Model/blob/master/DDI-Modeling-Network.png">
+</p>
 
 ## Repository files
 Within this repository, we distribute a whole-body PBPK model of itraconazole, that has been carefully developed using a large number of clinical studies and evaluated within our DDI modeling network. This model is an improved version of the itraconazole/hydroxy-itraconazole compound template provided in PK-Sim; the compound template will be updated as soon as possible. 
