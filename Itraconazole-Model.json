@@ -2,8 +2,8 @@
   "Version": 75,
   "Individuals": [
     {
-      "Name": "European (Pgp modified, CYP3A4 36 h)",
-      "Seed": 264844784,
+      "Name": "European (P-gp modified, CYP3A4 36 h)",
+      "Seed": 17189110,
       "OriginData": {
         "CalculationMethods": [
           "SurfaceAreaPlsInt_VAR1",
@@ -207,7 +207,7 @@
           ]
         },
         {
-          "Name": "ABCB1",
+          "Name": "P-gp",
           "Type": "Transporter",
           "TransportType": "Efflux",
           "Expression": [
@@ -745,6 +745,59 @@
             {
               "Name": "Reference concentration",
               "Value": 0.47661714,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Name": "UGT1A4",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            }
+          ],
+          "Ontogeny": {
+            "Name": "UGT1A4"
+          },
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 2.32,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Name": "GABRG2",
+          "Type": "OtherProtein",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "ExtracellularMembrane",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Brain",
+              "Value": 1.0
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 1.0877710492,
               "Unit": "µmol/l",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -6254,7 +6307,7 @@
         "Organism|PeripheralVenousBlood|Keto-Itraconazole|Plasma (Peripheral Venous Blood)",
         "Organism|PeripheralVenousBlood|N-desalkyl-Itraconazole|Plasma (Peripheral Venous Blood)"
       ],
-      "Individual": "European (Pgp modified, CYP3A4 36 h)",
+      "Individual": "European (P-gp modified, CYP3A4 36 h)",
       "Compounds": [
         {
           "Name": "Hydroxy-Itraconazole",
@@ -6545,7 +6598,7 @@
         "Organism|PeripheralVenousBlood|Hydroxy-Itraconazole|Plasma (Peripheral Venous Blood)",
         "Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)"
       ],
-      "Individual": "European (Pgp modified, CYP3A4 36 h)",
+      "Individual": "European (P-gp modified, CYP3A4 36 h)",
       "Compounds": [
         {
           "Name": "Hydroxy-Itraconazole",
@@ -6994,7 +7047,7 @@
         "Organism|PeripheralVenousBlood|Hydroxy-Itraconazole|Plasma (Peripheral Venous Blood)",
         "Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)"
       ],
-      "Individual": "European (Pgp modified, CYP3A4 36 h)",
+      "Individual": "European (P-gp modified, CYP3A4 36 h)",
       "Compounds": [
         {
           "Name": "Hydroxy-Itraconazole",
@@ -7379,7 +7432,7 @@
         "Organism|PeripheralVenousBlood|Keto-Itraconazole|Plasma (Peripheral Venous Blood)",
         "Organism|PeripheralVenousBlood|N-desalkyl-Itraconazole|Plasma (Peripheral Venous Blood)"
       ],
-      "Individual": "European (Pgp modified, CYP3A4 36 h)",
+      "Individual": "European (P-gp modified, CYP3A4 36 h)",
       "Compounds": [
         {
           "Name": "Hydroxy-Itraconazole",
@@ -7609,7 +7662,7 @@
         "Organism|PeripheralVenousBlood|Hydroxy-Itraconazole|Plasma (Peripheral Venous Blood)",
         "Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)"
       ],
-      "Individual": "European (Pgp modified, CYP3A4 36 h)",
+      "Individual": "European (P-gp modified, CYP3A4 36 h)",
       "Compounds": [
         {
           "Name": "Hydroxy-Itraconazole",
@@ -7989,7 +8042,7 @@
         "Organism|PeripheralVenousBlood|Hydroxy-Itraconazole|Plasma (Peripheral Venous Blood)",
         "Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)"
       ],
-      "Individual": "European (Pgp modified, CYP3A4 36 h)",
+      "Individual": "European (P-gp modified, CYP3A4 36 h)",
       "Compounds": [
         {
           "Name": "Hydroxy-Itraconazole",
@@ -8711,7 +8764,7 @@
         "Organism|PeripheralVenousBlood|Hydroxy-Itraconazole|Plasma (Peripheral Venous Blood)",
         "Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)"
       ],
-      "Individual": "European (Pgp modified, CYP3A4 36 h)",
+      "Individual": "European (P-gp modified, CYP3A4 36 h)",
       "Compounds": [
         {
           "Name": "Hydroxy-Itraconazole",
@@ -9227,7 +9280,7 @@
         "Organism|PeripheralVenousBlood|Keto-Itraconazole|Plasma (Peripheral Venous Blood)",
         "Organism|PeripheralVenousBlood|N-desalkyl-Itraconazole|Plasma (Peripheral Venous Blood)"
       ],
-      "Individual": "European (Pgp modified, CYP3A4 36 h)",
+      "Individual": "European (P-gp modified, CYP3A4 36 h)",
       "Compounds": [
         {
           "Name": "Hydroxy-Itraconazole",
@@ -9446,7 +9499,7 @@
         "Organism|PeripheralVenousBlood|Hydroxy-Itraconazole|Plasma (Peripheral Venous Blood)",
         "Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)"
       ],
-      "Individual": "European (Pgp modified, CYP3A4 36 h)",
+      "Individual": "European (P-gp modified, CYP3A4 36 h)",
       "Compounds": [
         {
           "Name": "Hydroxy-Itraconazole",
@@ -9687,7 +9740,7 @@
         "Organism|PeripheralVenousBlood|Hydroxy-Itraconazole|Plasma (Peripheral Venous Blood)",
         "Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)"
       ],
-      "Individual": "European (Pgp modified, CYP3A4 36 h)",
+      "Individual": "European (P-gp modified, CYP3A4 36 h)",
       "Compounds": [
         {
           "Name": "Hydroxy-Itraconazole",
@@ -10039,7 +10092,7 @@
         "Organism|PeripheralVenousBlood|Keto-Itraconazole|Plasma (Peripheral Venous Blood)",
         "Organism|PeripheralVenousBlood|N-desalkyl-Itraconazole|Plasma (Peripheral Venous Blood)"
       ],
-      "Individual": "European (Pgp modified, CYP3A4 36 h)",
+      "Individual": "European (P-gp modified, CYP3A4 36 h)",
       "Compounds": [
         {
           "Name": "Hydroxy-Itraconazole",
@@ -10385,7 +10438,7 @@
         "Organism|PeripheralVenousBlood|Hydroxy-Itraconazole|Plasma (Peripheral Venous Blood)",
         "Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)"
       ],
-      "Individual": "European (Pgp modified, CYP3A4 36 h)",
+      "Individual": "European (P-gp modified, CYP3A4 36 h)",
       "Compounds": [
         {
           "Name": "Hydroxy-Itraconazole",
@@ -10636,7 +10689,7 @@
         "Organism|PeripheralVenousBlood|Hydroxy-Itraconazole|Plasma (Peripheral Venous Blood)",
         "Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)"
       ],
-      "Individual": "European (Pgp modified, CYP3A4 36 h)",
+      "Individual": "European (P-gp modified, CYP3A4 36 h)",
       "Compounds": [
         {
           "Name": "Hydroxy-Itraconazole",
@@ -10989,7 +11042,7 @@
         "Organism|PeripheralVenousBlood|Hydroxy-Itraconazole|Plasma (Peripheral Venous Blood)",
         "Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)"
       ],
-      "Individual": "European (Pgp modified, CYP3A4 36 h)",
+      "Individual": "European (P-gp modified, CYP3A4 36 h)",
       "Compounds": [
         {
           "Name": "Hydroxy-Itraconazole",
@@ -11316,7 +11369,7 @@
         "Organism|PeripheralVenousBlood|Hydroxy-Itraconazole|Plasma (Peripheral Venous Blood)",
         "Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)"
       ],
-      "Individual": "European (Pgp modified, CYP3A4 36 h)",
+      "Individual": "European (P-gp modified, CYP3A4 36 h)",
       "Compounds": [
         {
           "Name": "Hydroxy-Itraconazole",
@@ -11696,7 +11749,7 @@
         "Organism|PeripheralVenousBlood|Hydroxy-Itraconazole|Plasma (Peripheral Venous Blood)",
         "Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)"
       ],
-      "Individual": "European (Pgp modified, CYP3A4 36 h)",
+      "Individual": "European (P-gp modified, CYP3A4 36 h)",
       "Compounds": [
         {
           "Name": "Hydroxy-Itraconazole",
@@ -12016,7 +12069,7 @@
         "Organism|PeripheralVenousBlood|Hydroxy-Itraconazole|Plasma (Peripheral Venous Blood)",
         "Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)"
       ],
-      "Individual": "European (Pgp modified, CYP3A4 36 h)",
+      "Individual": "European (P-gp modified, CYP3A4 36 h)",
       "Compounds": [
         {
           "Name": "Hydroxy-Itraconazole",
@@ -12553,7 +12606,7 @@
               "X": "Abdel-Rahman 2007 - 6m-2y - Itraconazole - IV - 2.5 mg/kg - Plasma - agg. (n=6)|Time",
               "Y": "Abdel-Rahman 2007 - 6m-2y - Itraconazole - IV - 2.5 mg/kg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Itraconazole|ArithmeticMean",
               "CurveOptions": {
-                "Color": "0, 0, 255",
+                "Color": "Blue",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -12763,7 +12816,7 @@
               "X": "Abdel-Rahman 2007 - 12-16y - Itraconazole - IV - 2.5 mg/kg - Plasma - agg. (n=11)|Time",
               "Y": "Abdel-Rahman 2007 - 12-16y - Itraconazole - IV - 2.5 mg/kg - Plasma - agg. (n=11)|ObservedData|Peripheral Venous Blood|Plasma|Itraconazole|ArithmeticMean",
               "CurveOptions": {
-                "Color": "0, 0, 255",
+                "Color": "Blue",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -13183,7 +13236,7 @@
               "X": "Abdel-Rahman 2007 - 6-12y - Itraconazole - IV - 2.5 mg/kg - Plasma - agg. (n=7)|Time",
               "Y": "Abdel-Rahman 2007 - 6-12y - Itraconazole - IV - 2.5 mg/kg - Plasma - agg. (n=7)|ObservedData|Peripheral Venous Blood|Plasma|Itraconazole|ArithmeticMean",
               "CurveOptions": {
-                "Color": "0, 0, 255",
+                "Color": "Blue",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -13305,7 +13358,7 @@
         "Organism|PeripheralVenousBlood|Keto-Itraconazole|Plasma (Peripheral Venous Blood)",
         "Organism|PeripheralVenousBlood|N-desalkyl-Itraconazole|Plasma (Peripheral Venous Blood)"
       ],
-      "Individual": "European (Pgp modified, CYP3A4 36 h)",
+      "Individual": "European (P-gp modified, CYP3A4 36 h)",
       "Compounds": [
         {
           "Name": "Hydroxy-Itraconazole",
