@@ -1,9 +1,9 @@
 {
-    "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v2.0/OSP_Qualification_Plan_Schema.json",
+    "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v2.1/OSP_Qualification_Plan_Schema.json",
     "Projects": [
         {
             "Id": "Itraconazole",
-            "Path": "https://raw.githubusercontent.com/sfrechen/Itraconazole-Model/master/Itraconazole-Model.json",
+            "Path": "../../Itraconazole-Model.json",
             "BuildingBlocks": [],
             "SimulationParameters": []
         }
@@ -139,6 +139,11 @@
                 "SectionId": 33,
                 "Project": "Itraconazole",
                 "Simulation": "po 200 mg MD OD caps fast"
+            },
+            {
+                "SectionId": 33,
+                "Project": "Itraconazole",
+                "Simulation": "po 100 mg MD BID caps fast"
             },
             {
                 "SectionId": 33,
@@ -335,6 +340,13 @@
                                 "Simulation": "po 100 mg SD caps fast",
                                 "Output": "Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Van Peer 1989 - 100 mg Capsules, fasting - Itraconazole - PO - 100 mg - Plasma - agg. (n=6)",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Itraconazole",
+                                "Simulation": "po 100 mg MD BID caps fast",
+                                "Output": "Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Kivistö 1997 - with Perpetrator (Itraconazole) - Itraconazole - PO - 100 mg - Plasma - agg. (n=8)",
                                 "Color": "#FF0000"
                             },
                             {
@@ -743,20 +755,8 @@
                 },
                 {
                     "Id": 33,
-                    "Title": "3.3: Concentration-Time Profiles",
-                    "Content": "Content/Concentration_time_profiles.md",
-                    "Sections": [
-                        {
-                            "Id": 331,
-                            "Title": "3.3.1 Model Building",
-                            "Content": "Content/Concentration_time_profiles_building.md"
-                        },
-                        {
-                            "Id": 332,
-                            "Title": "3.3.2 Model Verification",
-                            "Content": "Content/Concentration_time_profiles_verification.md"
-                        }
-                    ]
+                    "Title": "3.3 Concentration-Time Profiles",
+                    "Content": "Content/Concentration_time_profiles.md"
                 }
             ]
         },
