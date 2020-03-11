@@ -6329,6 +6329,109 @@
         }
       ],
       "TimeUnit": "h"
+    },
+    {
+      "Name": "PO MD 100 mg",
+      "DosingInterval": "Single",
+      "Schemas": [
+        {
+          "Name": "Schema 1",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 100.0,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 1.37,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 4.0,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 24.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Name": "Schema 2",
+          "SchemaItems": [
+            {
+              "Name": "Schema Item 1",
+              "ApplicationType": "Oral",
+              "FormulationKey": "Formulation",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
+                  "Name": "InputDose",
+                  "Value": 100.0,
+                  "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
+                }
+              ]
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 6.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 4.0,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 24.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "TimeUnit": "h"
     }
   ],
   "Events": [
@@ -13666,6 +13769,260 @@
           "CompoundName": "N-desalkyl-Itraconazole"
         }
       ]
+    },
+    {
+      "Name": "po 100 mg MD BID caps fast",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Kivistö 1997 - with Perpetrator (Itraconazole) - Itraconazole - PO - 100 mg - Plasma - agg. (n=8)"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 120.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 10.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|PO MD 100 mg|Capsule fasted|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 1.37,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|PO MD 100 mg|Capsule fasted|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|PO MD 100 mg|Capsule fasted|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 1.37,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|PO MD 100 mg|Capsule fasted|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|PO MD 100 mg|Capsule fasted|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 1.37,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|PO MD 100 mg|Capsule fasted|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|PO MD 100 mg|Capsule fasted|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 1.37,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Applications|PO MD 100 mg|Capsule fasted|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Hydroxy-Itraconazole|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Keto-Itraconazole|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|N-desalkyl-Itraconazole|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "European (P-gp modified, CYP3A4 36 h)",
+      "Compounds": [
+        {
+          "Name": "Hydroxy-Itraconazole",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-Isoherranen 2004",
+              "MoleculeName": "CYP3A4",
+              "MetaboliteName": "Keto-Itraconazole"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR"
+            }
+          ]
+        },
+        {
+          "Name": "Itraconazole",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Capsule fasted",
+              "GroupName": "COMPOUND_SOLUBILITY"
+            },
+            {
+              "AlternativeName": "Calculated",
+              "GroupName": "COMPOUND_PERMEABILITY"
+            },
+            {
+              "AlternativeName": "Fit",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-Isoherranen 2004",
+              "MoleculeName": "CYP3A4",
+              "MetaboliteName": "Hydroxy-Itraconazole"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "PO MD 100 mg",
+            "Formulations": [
+              {
+                "Name": "Capsule fasted",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Keto-Itraconazole",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-Isoherranen 2004",
+              "MoleculeName": "CYP3A4",
+              "MetaboliteName": "N-desalkyl-Itraconazole"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR"
+            }
+          ]
+        },
+        {
+          "Name": "N-desalkyl-Itraconazole",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-Isoherranen 2004",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR"
+            }
+          ]
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": -3.040238,
+              "Max": 123.9491,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 27.75721,
+              "Max": 879.8425,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "po 100 mg MD BID caps fast-Itraconazole-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "po 100 mg MD BID caps fast|Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "LegendIndex": 2
+              }
+            },
+            {
+              "Name": "Kivistö 1997 - with Perpetrator (Itraconazole) - Itraconazole - PO - 100 mg - Plasma - agg. (n=8)-Itraconazole-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Kivistö 1997 - with Perpetrator (Itraconazole) - Itraconazole - PO - 100 mg - Plasma - agg. (n=8)|Time",
+              "Y": "Kivistö 1997 - with Perpetrator (Itraconazole) - Itraconazole - PO - 100 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Itraconazole|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "po 100 mg MD BID caps fast - Plasma",
+          "OriginText": "Itraconazole-Model\npo 100 mg MD BID caps fast\n2020-03-10 15:19"
+        }
+      ],
+      "Interactions": [
+        {
+          "Name": "CYP3A4-Isoherranen, 2004",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Hydroxy-Itraconazole"
+        },
+        {
+          "Name": "CYP3A4-Isoherranen, 2004",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Itraconazole"
+        },
+        {
+          "Name": "CYP3A4-Isoherranen, 2004",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Keto-Itraconazole"
+        },
+        {
+          "Name": "CYP3A4-Isoherranen, 2004",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "N-desalkyl-Itraconazole"
+        }
+      ]
     }
   ],
   "ParameterIdentifications": [
@@ -17978,15 +18335,15 @@
             "MolWeight": 705.633
           },
           "Values": [
-            0.2804383,
-            0.3169022,
-            0.3595929,
-            0.3449997,
-            0.2346112,
-            0.1491913
+            280.438324,
+            316.9022,
+            359.592926,
+            344.9997,
+            234.611191,
+            149.191315
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/l"
         }
       ],
       "BaseGrid": {
@@ -28508,7 +28865,8 @@
               "Classifiables": [
                 "po 100 mg SD caps fast",
                 "po 200 mg SD caps fast",
-                "po 200 mg MD OD caps fast"
+                "po 200 mg MD OD caps fast",
+                "po 100 mg MD BID caps fast"
               ]
             },
             {
