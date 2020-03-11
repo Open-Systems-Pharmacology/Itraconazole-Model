@@ -24,7 +24,7 @@
 
 **Kivistö 1997** Kivistö KT, Lamberg TS, Kantola T, Neuvonen PJ. Plasma buspirone concentrations are greatly increased by erythromycin and itraconazole. Clin Pharmacol Ther. 1997 Sep;62(3):348-54.
 
-**Kuepfer 2016** Kuepfer L, Niederalt C, Wendl T, Schlender JF, Willmann S, Lippert J, Block M, Eissing T, Teutonico D. Applied Concepts in PBPK Modeling: How to Build a PBPK/PD Model.CPT Pharmacometrics Syst Pharmacol. 2016 Oct;5(10):516-531. doi: 10.1002/psp4.12134.
+**Kuepfer 2016** Kuepfer L, Niederalt C, Wendl T, Schlender JF, Willmann S, Lippert J, Block M, Eissing T, Teutonico D. Applied Concepts in PBPK Modeling: How to Build a PBPK/PD Model.CPT Pharmacometrics Syst Pharmacol. 2016 Oct;5(10):516-531.
 
 **Mouton 2006** Mouton JW, van Peer A, de Beule K, Van Vliet A, Donnelly JP, Soons PA. Pharmacokinetics of itraconazole and hydroxyitraconazole in healthy subjects after single and multiple doses of a novel formulation. Antimicrob Agents Chemother. 2006 Dec;50(12):4096-102.
 
