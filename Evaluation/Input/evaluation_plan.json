@@ -251,42 +251,42 @@
                                 "Simulation": "po 100 mg MD OD sol fast",
                                 "Output": "Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Templeton 2008 - ITZ day 1 - Itraconazole - PO - 100 mg - Plasma - agg. (n=6)",
-                                "Color": "#FF0000"
+                                "Color": "#009246"
                             },
                             {
                                 "Project": "Itraconazole",
                                 "Simulation": "po 100 mg MD OD sol fast",
                                 "Output": "Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Templeton 2008 - ITZ day 7 - Itraconazole - PO - 100 mg - Plasma - agg. (n=6)",
-                                "Color": "#FF0000"
+                                "Color": "#009246"
                             },
                             {
                                 "Project": "Itraconazole",
                                 "Simulation": "po 100 mg SD sol fast",
                                 "Output": "Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Van de Velde 1996 - Fasting ITZ - Itraconazole - PO - 100 mg - Plasma - agg. (n=12)",
-                                "Color": "#FF0000"
+                                "Color": "#009246"
                             },
                             {
                                 "Project": "Itraconazole",
                                 "Simulation": "po 100 mg SD sol fast",
                                 "Output": "Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Van Peer 1989 - 100 mg Solution, fasting - Itraconazole - PO - 100 mg - Plasma - agg. (n=6)",
-                                "Color": "#FF0000"
+                                "Color": "#009246"
                             },
                             {
                                 "Project": "Itraconazole",
                                 "Simulation": "po 200 mg MD OD sol fast",
                                 "Output": "Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Barone 1998a - day 15 fasted - Itraconazole - PO - 200 mg - Plasma - agg. (n=27)",
-                                "Color": "#FF0000"
+                                "Color": "#009246"
                             },
                             {
                                 "Project": "Itraconazole",
                                 "Simulation": "po 200 mg MD OD sol fast",
                                 "Output": "Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Barone 1998a - day 1 fasted - Itraconazole - PO - 200 mg - Plasma - agg. (n=27)",
-                                "Color": "#FF0000"
+                                "Color": "#009246"
                             }
                         ]
                     },
@@ -299,35 +299,35 @@
                                 "Simulation": "po 100 mg SD  sol fed",
                                 "Output": "Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Van de Velde 1996 - Fed ITZ - Itraconazole - PO - 100 mg - Plasma - agg. (n=12)",
-                                "Color": "#FF0000"
+                                "Color": "#5490fe"
                             },
                             {
                                 "Project": "Itraconazole",
                                 "Simulation": "po 100 mg SD  sol fed",
                                 "Output": "Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Heykants 1989 - po 100 mg SD fed - Itraconazole - PO - 100 mg - Plasma - agg. (n=6)",
-                                "Color": "#FF0000"
+                                "Color": "#5490fe"
                             },
                             {
                                 "Project": "Itraconazole",
                                 "Simulation": "po 200 mg MD OD sol fed",
                                 "Output": "Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Barone 1998a - day 1 fed - Itraconazole - PO - 200 mg - Plasma - agg. (n=27)",
-                                "Color": "#FF0000"
+                                "Color": "#5490fe"
                             },
                             {
                                 "Project": "Itraconazole",
                                 "Simulation": "po 200 mg MD OD sol fed",
                                 "Output": "Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Barone 1998a - day 15 fed - Itraconazole - PO - 200 mg - Plasma - agg. (n=27)",
-                                "Color": "#FF0000"
+                                "Color": "#5490fe"
                             },
                             {
                                 "Project": "Itraconazole",
                                 "Simulation": "po 200 mg SD sol fed",
                                 "Output": "Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Barone 1998b - Solution - Itraconazole - PO - 200 mg - Plasma - agg. (n=30)",
-                                "Color": "#FF0000"
+                                "Color": "#5490fe"
                             }
                         ]
                     },
@@ -340,35 +340,35 @@
                                 "Simulation": "po 100 mg SD caps fast",
                                 "Output": "Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Van Peer 1989 - 100 mg Capsules, fasting - Itraconazole - PO - 100 mg - Plasma - agg. (n=6)",
-                                "Color": "#FF0000"
+                                "Color": "#ffa500"
                             },
                             {
                                 "Project": "Itraconazole",
                                 "Simulation": "po 100 mg MD BID caps fast",
                                 "Output": "Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Kivistö 1997 - with Perpetrator (Itraconazole) - Itraconazole - PO - 100 mg - Plasma - agg. (n=8)",
-                                "Color": "#FF0000"
+                                "Color": "#ffa500"
                             },
                             {
                                 "Project": "Itraconazole",
                                 "Simulation": "po 200 mg MD OD caps fast",
                                 "Output": "Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Olkkola 1994 - po with Perpetrator (Itraconazole) - Itraconazole - PO - 200 mg - Plasma - agg. (n=9)",
-                                "Color": "#FF0000"
+                                "Color": "#ffa500"
                             },
                             {
                                 "Project": "Itraconazole",
                                 "Simulation": "po 200 mg MD OD caps fast",
                                 "Output": "Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Jalava 1997 - po with Perpetrator (Itraconazole) - Itraconazole - PO - 200 mg - Plasma - agg. (n=10)",
-                                "Color": "#FF0000"
+                                "Color": "#ffa500"
                             },
                             {
                                 "Project": "Itraconazole",
                                 "Simulation": "po 200 mg SD caps fast",
                                 "Output": "Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Barone 1993 - day 1 fasted - Itraconazole - PO - 200 mg - Plasma - agg. (n=28)",
-                                "Color": "#FF0000"
+                                "Color": "#ffa500"
                             }
                         ]
                     },
@@ -381,98 +381,98 @@
                                 "Simulation": "po 100 mg MD OD caps fed 1",
                                 "Output": "Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Van Peer 1989 - 100 mg Capsules, with food, 15 days MD - Itraconazole - PO - 100 mg - Plasma - agg. (n=6)",
-                                "Color": "#FF0000"
+                                "Color": "#6a0241"
                             },
                             {
                                 "Project": "Itraconazole",
                                 "Simulation": "po 100 mg MD OD caps fed 2",
                                 "Output": "Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Hardin 1988 - A 100 mg OD (day 1) - Itraconazole - PO - 100 mg - Plasma - agg. (n=5)",
-                                "Color": "#FF0000"
+                                "Color": "#6a0241"
                             },
                             {
                                 "Project": "Itraconazole",
                                 "Simulation": "po 100 mg MD OD caps fed 2",
                                 "Output": "Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Hardin 1988 - A 100 mg OD (day 7-15) - Itraconazole - PO - 100 mg - Plasma - agg. (n=5)",
-                                "Color": "#FF0000"
+                                "Color": "#6a0241"
                             },
                             {
                                 "Project": "Itraconazole",
                                 "Simulation": "po 100 mg MD OD caps fed 2",
                                 "Output": "Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Hardin 1988 - A 100 mg OD (day 15) - Itraconazole - PO - 100 mg - Plasma - agg. (n=5)",
-                                "Color": "#FF0000"
+                                "Color": "#6a0241"
                             },
                             {
                                 "Project": "Itraconazole",
                                 "Simulation": "po 100 mg SD caps fed",
                                 "Output": "Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Van Peer 1989 - 100 mg Capsules, with food - Itraconazole - PO - 100 mg - Plasma - agg. (n=6)",
-                                "Color": "#FF0000"
+                                "Color": "#6a0241"
                             },
                             {
                                 "Project": "Itraconazole",
                                 "Simulation": "po 200 mg MD BID caps fed 1",
                                 "Output": "Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Barone 1993 - day 1 fed - Itraconazole - PO - 200 mg - Plasma - agg. (n=28)",
-                                "Color": "#FF0000"
+                                "Color": "#6a0241"
                             },
                             {
                                 "Project": "Itraconazole",
                                 "Simulation": "po 200 mg MD BID caps fed 1",
                                 "Output": "Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Barone 1993 - day 15 fed - Itraconazole - PO - 200 mg - Plasma - agg. (n=28)",
-                                "Color": "#FF0000"
+                                "Color": "#6a0241"
                             },
                             {
                                 "Project": "Itraconazole",
                                 "Simulation": "po 200 mg MD BID caps fed 2",
                                 "Output": "Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Hardin 1988 - C 200 mg BID (day 1) - Itraconazole - PO - 200 mg - Plasma - agg. (n=5)",
-                                "Color": "#FF0000"
+                                "Color": "#6a0241"
                             },
                             {
                                 "Project": "Itraconazole",
                                 "Simulation": "po 200 mg MD BID caps fed 2",
                                 "Output": "Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Hardin 1988 - C 200 mg BID (day 7-15) - Itraconazole - PO - 200 mg - Plasma - agg. (n=5)",
-                                "Color": "#FF0000"
+                                "Color": "#6a0241"
                             },
                             {
                                 "Project": "Itraconazole",
                                 "Simulation": "po 200 mg MD BID caps fed 2",
                                 "Output": "Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Hardin 1988 - C 200 mg BID (day 15) - Itraconazole - PO - 200 mg - Plasma - agg. (n=5)",
-                                "Color": "#FF0000"
+                                "Color": "#6a0241"
                             },
                             {
                                 "Project": "Itraconazole",
                                 "Simulation": "po 200 mg MD OD caps fed",
                                 "Output": "Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Hardin 1988 - B 200 mg OD (day 1) - Itraconazole - PO - 200 mg - Plasma - agg. (n=5)",
-                                "Color": "#FF0000"
+                                "Color": "#6a0241"
                             },
                             {
                                 "Project": "Itraconazole",
                                 "Simulation": "po 200 mg MD OD caps fed",
                                 "Output": "Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Hardin 1988 - B 200 mg OD (day 7-15) - Itraconazole - PO - 200 mg - Plasma - agg. (n=5)",
-                                "Color": "#FF0000"
+                                "Color": "#6a0241"
                             },
                             {
                                 "Project": "Itraconazole",
                                 "Simulation": "po 200 mg MD OD caps fed",
                                 "Output": "Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Hardin 1988 - B 200 mg OD (day 15) - Itraconazole - PO - 200 mg - Plasma - agg. (n=5)",
-                                "Color": "#FF0000"
+                                "Color": "#6a0241"
                             },
                             {
                                 "Project": "Itraconazole",
                                 "Simulation": "po 200 mg SD caps fed",
                                 "Output": "Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Barone 1998b - F05 Capsule - Itraconazole - PO - 200 mg - Plasma - agg. (n=30)",
-                                "Color": "#FF0000"
+                                "Color": "#6a0241"
                             }
                         ]
                     }
@@ -505,35 +505,35 @@
                                 "Simulation": "po 100 mg MD OD sol fast",
                                 "Output": "Organism|PeripheralVenousBlood|Hydroxy-Itraconazole|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Templeton 2008 - OH-ITZ day 1 - Hydroxy-Itraconazole - PO - 100 mg - Plasma - agg. (n=6)",
-                                "Color": "#FF0000"
+                                "Color": "#009246"
                             },
                             {
                                 "Project": "Itraconazole",
                                 "Simulation": "po 100 mg MD OD sol fast",
                                 "Output": "Organism|PeripheralVenousBlood|Hydroxy-Itraconazole|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Templeton 2008 - OH-ITZ day 7 - Hydroxy-Itraconazole - PO - 100 mg - Plasma - agg. (n=6)",
-                                "Color": "#FF0000"
+                                "Color": "#009246"
                             },
                             {
                                 "Project": "Itraconazole",
                                 "Simulation": "po 100 mg SD sol fast",
                                 "Output": "Organism|PeripheralVenousBlood|Hydroxy-Itraconazole|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Van de Velde 1996 - Fasting OH-ITZ - Hydroxy-Itraconazole - PO - 100 mg - Plasma - agg. (n=12)",
-                                "Color": "#FF0000"
+                                "Color": "#009246"
                             },
                             {
                                 "Project": "Itraconazole",
                                 "Simulation": "po 200 mg MD OD sol fast",
                                 "Output": "Organism|PeripheralVenousBlood|Hydroxy-Itraconazole|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Barone 1998a - day 15 fasted - Hydroxy-Itraconazole - PO - 200 mg - Plasma - agg. (n=27)",
-                                "Color": "#FF0000"
+                                "Color": "#009246"
                             },
                             {
                                 "Project": "Itraconazole",
                                 "Simulation": "po 200 mg MD OD sol fast",
                                 "Output": "Organism|PeripheralVenousBlood|Hydroxy-Itraconazole|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Barone 1998a - day 1 fasted - Hydroxy-Itraconazole - PO - 200 mg - Plasma - agg. (n=27)",
-                                "Color": "#FF0000"
+                                "Color": "#009246"
                             }
                         ]
                     },
@@ -546,28 +546,28 @@
                                 "Simulation": "po 100 mg SD  sol fed",
                                 "Output": "Organism|PeripheralVenousBlood|Hydroxy-Itraconazole|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Van de Velde 1996 - Fed OH-ITZ - Hydroxy-Itraconazole - PO - 100 mg - Plasma - agg. (n=12)",
-                                "Color": "#FF0000"
+                                "Color": "#5490fe"
                             },
                             {
                                 "Project": "Itraconazole",
                                 "Simulation": "po 200 mg MD OD sol fed",
                                 "Output": "Organism|PeripheralVenousBlood|Hydroxy-Itraconazole|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Barone 1998a - day 1 fed - Hydroxy-Itraconazole - PO - 200 mg - Plasma - agg. (n=27)",
-                                "Color": "#FF0000"
+                                "Color": "#5490fe"
                             },
                             {
                                 "Project": "Itraconazole",
                                 "Simulation": "po 200 mg MD OD sol fed",
                                 "Output": "Organism|PeripheralVenousBlood|Hydroxy-Itraconazole|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Barone 1998a - day 15 fed - Hydroxy-Itraconazole - PO - 200 mg - Plasma - agg. (n=27)",
-                                "Color": "#FF0000"
+                                "Color": "#5490fe"
                             },
                             {
                                 "Project": "Itraconazole",
                                 "Simulation": "po 200 mg SD sol fed",
                                 "Output": "Organism|PeripheralVenousBlood|Hydroxy-Itraconazole|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Barone 1998b - Solution - Hydroxy-Itraconazole - PO - 200 mg - Plasma - agg. (n=30)",
-                                "Color": "#FF0000"
+                                "Color": "#5490fe"
                             }
                         ]
                     },
@@ -580,7 +580,7 @@
                                 "Simulation": "po 200 mg SD caps fast",
                                 "Output": "Organism|PeripheralVenousBlood|Hydroxy-Itraconazole|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Barone 1993 - day 1 fasted - Hydroxy-Itraconazole - PO - 200 mg - Plasma - agg. (n=28)",
-                                "Color": "#FF0000"
+                                "Color": "#ffa500"
                             }
                         ]
                     },
@@ -593,21 +593,21 @@
                                 "Simulation": "po 200 mg MD BID caps fed 1",
                                 "Output": "Organism|PeripheralVenousBlood|Hydroxy-Itraconazole|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Barone 1993 - day 1 fed - Hydroxy-Itraconazole - PO - 200 mg - Plasma - agg. (n=28)",
-                                "Color": "#FF0000"
+                                "Color": "#6a0241"
                             },
                             {
                                 "Project": "Itraconazole",
                                 "Simulation": "po 200 mg MD BID caps fed 1",
                                 "Output": "Organism|PeripheralVenousBlood|Hydroxy-Itraconazole|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Barone 1993 - day 15 fed - Hydroxy-Itraconazole - PO - 200 mg - Plasma - agg. (n=28)",
-                                "Color": "#FF0000"
+                                "Color": "#6a0241"
                             },
                             {
                                 "Project": "Itraconazole",
                                 "Simulation": "po 200 mg SD caps fed",
                                 "Output": "Organism|PeripheralVenousBlood|Hydroxy-Itraconazole|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Barone 1998b - F05 Capsule - Hydroxy-Itraconazole - PO - 200 mg - Plasma - agg. (n=30)",
-                                "Color": "#FF0000"
+                                "Color": "#6a0241"
                             }
                         ]
                     }
@@ -627,14 +627,14 @@
                                 "Simulation": "po 100 mg MD OD sol fast",
                                 "Output": "Organism|PeripheralVenousBlood|Keto-Itraconazole|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Templeton 2008 - keto-ITZ day 1 - Keto-Itraconazole - PO - 100 mg - Plasma - agg. (n=6)",
-                                "Color": "#FF0000"
+                                "Color": "#009246"
                             },
                             {
                                 "Project": "Itraconazole",
                                 "Simulation": "po 100 mg MD OD sol fast",
                                 "Output": "Organism|PeripheralVenousBlood|Keto-Itraconazole|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Templeton 2008 - keto-ITZ day 7 - Keto-Itraconazole - PO - 100 mg - Plasma - agg. (n=6)",
-                                "Color": "#FF0000"
+                                "Color": "#009246"
                             }
                         ]
                     }
@@ -654,14 +654,14 @@
                                 "Simulation": "po 100 mg MD OD sol fast",
                                 "Output": "Organism|PeripheralVenousBlood|N-desalkyl-Itraconazole|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Templeton 2008 - ND-OH-ITZ day 1 - N-desalkyl-Itraconazole - PO - 100 mg - Plasma - agg. (n=6)",
-                                "Color": "#FF0000"
+                                "Color": "#009246"
                             },
                             {
                                 "Project": "Itraconazole",
                                 "Simulation": "po 100 mg MD OD sol fast",
                                 "Output": "Organism|PeripheralVenousBlood|N-desalkyl-Itraconazole|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Templeton 2008 - ND-OH-ITZ day 7 - N-desalkyl-Itraconazole - PO - 100 mg - Plasma - agg. (n=6)",
-                                "Color": "#FF0000"
+                                "Color": "#009246"
                             }
                         ]
                     }
