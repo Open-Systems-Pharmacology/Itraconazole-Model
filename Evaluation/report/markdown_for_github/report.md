@@ -45,8 +45,6 @@ The  applied activity and variability of plasma proteins and active processes th
 
 First, a mean model including sequential metabolism of itraconazole to hydroxy-itraconazole to keto-itraconazole to N-desalkyl-itraconazole by CYP3A4 was built using clinical data from single dose and multiple dose studies with intravenous and oral administration (solution, fasted state) of itraconazole. Hereby, competitive inhibition of CYP3A4 was considered for all four compunds. The mean PBPK model was developed using a typical European individual. The relative tissue-specific expressions of enzymes predominantly being involved in the metabolism of midazolam (CYP3A4) were considered. 
 
-The CYP3A4 expression profiles is based on high-sensitive real-time RT-PCR ([Nishimura 2013](#5 References)). Absolute tissue-specific expressions were obtained by considering the respective absolute concentration in the liver. The PK-Sim database provides a default value for CYP3A4 (compare [Rodrigues 1999](#5-References) and assume 40 mg protein per gram liver). 
-
 A specific set of parameters (see below) was optimized using the Parameter Identification module provided in PK-Sim®. Structural model selection was mainly guided by visual inspection of the resulting description of data and biological plausibility.
 
 Once the appropriate structural model was identified, additional parameters for different administration states (*solution fed*, *capsule fasted* and *capsule fed* versus the reference state *solution fasted*) were empirically optimized. Clinical data suggest that the bioavailability of itraconazole is enhanced when an oral solution is given in the fasted state compared to fed state ([Van de Welde 1996](#5-Reference), [Barone 1998a](#5-Reference)). In contradiction, a meal significantly enhances the amount of itraconazole absorbed after administrations of capsules (in comparison to fasted state administrations of capsules) ([Barone 1993a](#5-Reference)). To reflect these observations, parameters like solubility and dissolution kinetics (from capsules) were assumed to be variable between these four scenarios and were independently identified using the Parameter Identification module provided in PK-Sim®.
@@ -126,7 +124,7 @@ A literature search was performed to collect available information on physical c
 
 ### 2.2.2 Clinical data
 
-A literature search was performed to collect available clinical data on itraconazole and its metabolite in adults. The itraconazole model was built and verifified using various clinical studies, covering a dosing range from 100 to 200 mg in different formulations (solution *vs.* capsule), administered under fasted conditions or together with food.
+A literature search was performed to collect available clinical data on itraconazole and its metabolite in adults. The itraconazole model was built and verified using various clinical studies, covering a dosing range from 100 to 200 mg in different formulations (solution *vs.* capsule), administered under fasted conditions or together with food.
 
 The following dosing senarios were simulated and compared to respective data:
 
@@ -188,9 +186,13 @@ After testing the available organ-plasma partition coefficient and cell permeabi
 
 Two sequential metabolic pathway via CYP3A4 were implement into the model via Michaelis-Menten kinetics for all four compounds. *In vitro* determined unbound K<sub>m</sub> values ([Isoherranen 2004](#5-References)) served as starting values (if available) . Respective k<sub>cat</sub> values were optimized to best match clinical data (see also [Section 2.3.5](#2.3.5-Automated-Parameter-Identification)).
 
+The CYP3A4 expression profiles is based on high-sensitive real-time RT-PCR ([Nishimura 2013](#5 References)). Absolute tissue-specific expressions were obtained by considering the respective absolute concentration in the liver. The PK-Sim database provides a default value for CYP3A4 (compare [Rodrigues 1999](#5-References) and assume 40 mg protein per gram liver). 
+
 Additionally, for all four compounds a renal clearance (assumed to be driven by glomerular filtration) was implemented.
 
 ### 2.3.4 DDI Parameters
+
+The following sub-sections describe the model's input for DDI-related parameters, i.e. inhibition on certain enzymes and transporters, for which itraconazole may act in a perpetrator role. Verification of these model parameters and linked processes in combination with sensitive CYP3A4 / P-gp substrates is not evaluated in this report. Applications are assessed in specific use cases and reported elsewhere. Note, however, that the competitive CYP3A4 inhibition of the four compounds results in inhibition of metabolite formation (of hydroxy-itraconazole, keto-itraconazole, N-desalkyl-itraconazole) and the metabolism of N-desalkyl-itraconazole. This effectively contributes to the PK non-linearity of itraconazole and its metabolites, especially after multiple doses.
 
 #### CYP3A4 inhibition
 *In vitro* determined unbound K<sub>i</sub> values for itraconazole and hydroxy-itraconazole ([Isoherranen 2004](#5-References)) served directly as model input (see [Section 2.2.1](#2.2.1-In-vitro-and-physico-chemical-data)).
@@ -241,14 +243,11 @@ This is the result of the final parameter identification for the solubility (and
 |                 | `Dissolution time (50% dissolved)` | 139                                                          | min  |
 |                 | `Dissolution shape`                | 0.82                                                         |      |
 # 3 Results and Discussion
-The PBPK model for midazolam was developed and verified with clinical pharmacokinetic data.
+The PBPK model for itraconazole was developed and verified with clinical pharmacokinetic data.
 
-The model was built and evaluated covering data from studies including in particular
+The model was built and evaluated covering data from various clinical studies, covering a dosing range from 100 to 200 mg in different formulations (solution *vs.* capsule), administered under fasted conditions or together with food.
 
-* intravenous (bolus and infusions) and oral administrations (solution and tablets).
-* a dose range of 0.001 to 40 mg.
-
-The model quantifies metabolism via CYP3A4 and UGT1A4.
+The model quantifies in particular metabolism and inhibition via CYP3A4.
 
 The next sections show:
 
@@ -591,7 +590,11 @@ In particular, the model includes the subsequent metabolites hydroxy-itraconazol
 
 **Cheng 1973** Cheng Y, Prusoff WH. Relationship between the inhibition constant (K1) and the concentration of inhibitor which causes 50 per cent inhibition (I50) of an enzymatic reaction. Biochem Pharmacol. 1973 Dec 1;22(23):3099-108.
 
+**DrugBank DB01167** (https://www.drugbank.ca/drugs/DB01167)
+
 **DrugBank DBMET00374** (https://www.drugbank.ca/metabolites/DBMET00374)
+
+**Hanke 2018** Hanke N, Frechen S, Moj D, Britz H, Eissing T, Wendl T, Lehr T. PBPK Models for CYP3A4 and P-gp DDI Prediction: A Modeling Network of Rifampicin, Itraconazole, Clarithromycin, Midazolam, Alfentanil, and Digoxin. CPT Pharmacometrics Syst Pharmacol. 2018 Oct;7(10):647-659.
 
 **Hardin 1988** Hardin TC, Graybill JR, Fetchick R, Woestenborghs R, Rinaldi MG, Kuhn JG. Pharmacokinetics of itraconazole following oral administration to normal volunteers. Antimicrob Agents Chemother. 1988 Sep;32(9):1310-3.
 
@@ -605,9 +608,15 @@ In particular, the model includes the subsequent metabolites hydroxy-itraconazol
 
 **Kivistö 1997** Kivistö KT, Lamberg TS, Kantola T, Neuvonen PJ. Plasma buspirone concentrations are greatly increased by erythromycin and itraconazole. Clin Pharmacol Ther. 1997 Sep;62(3):348-54.
 
+**Kuepfer 2016** Kuepfer L, Niederalt C, Wendl T, Schlender JF, Willmann S, Lippert J, Block M, Eissing T, Teutonico D. Applied Concepts in PBPK Modeling: How to Build a PBPK/PD Model.CPT Pharmacometrics Syst Pharmacol. 2016 Oct;5(10):516-531.
+
 **Mouton 2006** Mouton JW, van Peer A, de Beule K, Van Vliet A, Donnelly JP, Soons PA. Pharmacokinetics of itraconazole and hydroxyitraconazole in healthy subjects after single and multiple doses of a novel formulation. Antimicrob Agents Chemother. 2006 Dec;50(12):4096-102.
 
+**Nishimura 2013** Nishimura M, Yaguti H, Yoshitsugu H, Naito S, Satoh T. Tissue distribution of mRNA expression of human cytochrome P450 isoforms assessed by high-sensitivity real-time reverse transcription PCR. Yakugaku Zasshi. 2003 May;123(5):369-75.
+
 **Olkkola 1994** Olkkola KT, Backman JT, Neuvonen PJ. Midazolam should be avoided in patients receiving the systemic antimycotics ketoconazole or itraconazole. Clin Pharmacol Ther. 1994 May;55(5):481-5.
+
+**PK-Sim Ontogeny Database Version 7.3** (https://github.com/Open-Systems-Pharmacology/OSPSuite.Documentation/blob/38cf71b384cfc25cfa0ce4d2f3addfd32757e13b/PK-Sim%20Ontogeny%20Database%20Version%207.3.pdf)	
 
 **PubChem CID 108222** (https://pubchem.ncbi.nlm.nih.gov/compound/Hydroxy-Itraconazole)
 
@@ -616,6 +625,10 @@ In particular, the model includes the subsequent metabolites hydroxy-itraconazol
 **PubChem CID 53789808** (https://pubchem.ncbi.nlm.nih.gov/compound/N-Desalkyl-itraconazole)
 
 **Riccardi 2015** Riccardi K, Cawley S, Yates PD, Chang C, Funk C, Niosi M, Lin J, Di L. Plasma Protein Binding of Challenging Compounds. J Pharm Sci. 2015 Aug;104(8):2627-36.
+
+**Rodrigues 1999** Rodrigues AD. Integrated cytochrome P450 reaction phenotyping: attempting to bridge the gap between cDNA-expressed cytochromes P450 and native human liver microsomes. Biochem Pharmacol. 1999 Mar 1;57(5):465-80.
+
+**Schlender 2016** Schlender JF, Meyer M, Thelen K, Krauss M, Willmann S, Eissing T, Jaehde U. Development of a Whole-Body Physiologically Based Pharmacokinetic Approach to Assess the Pharmacokinetics of Drugs in Elderly Individuals. Clin Pharmacokinet. 2016 Dec;55(12):1573-1589. 
 
 **Shityakov 2014** Shityakov S, Förster C. In silico structure-based screening of versatile P-glycoprotein inhibitors using polynomial empirical scoring functions. Adv Appl Bioinform Chem. 2014 Mar 24;7:1-9.
 

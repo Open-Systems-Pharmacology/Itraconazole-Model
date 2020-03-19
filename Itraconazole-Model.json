@@ -4632,151 +4632,6 @@
   ],
   "Compounds": [
     {
-      "Name": "Hydroxy-Itraconazole",
-      "IsSmallMolecule": true,
-      "PlasmaProteinBindingPartner": "Albumin",
-      "Lipophilicity": [
-        {
-          "Name": "Fit",
-          "Parameters": [
-            {
-              "Name": "Lipophilicity",
-              "Value": 3.718,
-              "Unit": "Log Units"
-            }
-          ]
-        }
-      ],
-      "FractionUnbound": [
-        {
-          "Name": "Templeton, 2008",
-          "Species": "Human",
-          "Parameters": [
-            {
-              "Name": "Fraction unbound (plasma, reference value)",
-              "Value": 1.7,
-              "Unit": "%",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Description": "Templeton, 2008"
-              }
-            }
-          ]
-        }
-      ],
-      "Solubility": [
-        {
-          "Name": "No value available",
-          "Parameters": [
-            {
-              "Name": "Solubility at reference pH",
-              "Value": 1.0,
-              "Unit": "mg/l"
-            },
-            {
-              "Name": "Reference pH",
-              "Value": 7.0
-            }
-          ]
-        }
-      ],
-      "PkaTypes": [
-        {
-          "Type": "Base",
-          "Pka": 3.7,
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        }
-      ],
-      "Processes": [
-        {
-          "InternalName": "rCYP450_MM",
-          "DataSource": "Isoherranen 2004",
-          "Molecule": "CYP3A4",
-          "Metabolite": "Keto-Itraconazole",
-          "Parameters": [
-            {
-              "Name": "In vitro Vmax/recombinant enzyme",
-              "Value": 4.1716224833,
-              "Unit": "nmol/min/pmol rec. enzyme",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Description": "Isoherranen 2004"
-              }
-            },
-            {
-              "Name": "Km",
-              "Value": 4.1716224833,
-              "Unit": "nmol/l",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Description": "Isoherranen 2004"
-              }
-            },
-            {
-              "Name": "kcat",
-              "Value": 0.0203370845,
-              "Unit": "1/min",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
-          ]
-        },
-        {
-          "InternalName": "GlomerularFiltration",
-          "DataSource": "GFR",
-          "Species": "Human",
-          "Parameters": [
-            {
-              "Name": "GFR fraction",
-              "Value": 1.0,
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Description": "Isoherranen, 2004"
-              }
-            }
-          ]
-        },
-        {
-          "InternalName": "CompetitiveInhibition",
-          "DataSource": "Isoherranen, 2004",
-          "Molecule": "CYP3A4",
-          "Parameters": [
-            {
-              "Name": "Ki",
-              "Value": 14.4,
-              "Unit": "nmol/l",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Description": "Isoherranen, 2004"
-              }
-            }
-          ]
-        }
-      ],
-      "CalculationMethods": [
-        "Cellular partition coefficient method - Rodgers and Rowland",
-        "Cellular permeability - PK-Sim Standard"
-      ],
-      "Parameters": [
-        {
-          "Name": "Cl",
-          "Value": 2.0
-        },
-        {
-          "Name": "Molecular weight",
-          "Value": 721.633,
-          "Unit": "g/mol"
-        },
-        {
-          "Name": "Enable supersaturation",
-          "Value": 0.0
-        }
-      ]
-    },
-    {
       "Name": "Itraconazole",
       "IsSmallMolecule": true,
       "PlasmaProteinBindingPartner": "Albumin",
@@ -5021,10 +4876,147 @@
           "Name": "Molecular weight",
           "Value": 705.633,
           "Unit": "g/mol"
+        }
+      ]
+    },
+    {
+      "Name": "Hydroxy-Itraconazole",
+      "IsSmallMolecule": true,
+      "PlasmaProteinBindingPartner": "Albumin",
+      "Lipophilicity": [
+        {
+          "Name": "Fit",
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": 3.718,
+              "Unit": "Log Units"
+            }
+          ]
+        }
+      ],
+      "FractionUnbound": [
+        {
+          "Name": "Templeton, 2008",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (plasma, reference value)",
+              "Value": 1.7,
+              "Unit": "%",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Templeton, 2008"
+              }
+            }
+          ]
+        }
+      ],
+      "Solubility": [
+        {
+          "Name": "No value available",
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 1.0,
+              "Unit": "mg/l"
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 7.0
+            }
+          ]
+        }
+      ],
+      "PkaTypes": [
+        {
+          "Type": "Base",
+          "Pka": 3.7,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "Processes": [
+        {
+          "InternalName": "rCYP450_MM",
+          "DataSource": "Isoherranen 2004",
+          "Molecule": "CYP3A4",
+          "Metabolite": "Keto-Itraconazole",
+          "Parameters": [
+            {
+              "Name": "In vitro Vmax/recombinant enzyme",
+              "Value": 4.1716224833,
+              "Unit": "nmol/min/pmol rec. enzyme",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Isoherranen 2004"
+              }
+            },
+            {
+              "Name": "Km",
+              "Value": 4.1716224833,
+              "Unit": "nmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Isoherranen 2004"
+              }
+            },
+            {
+              "Name": "kcat",
+              "Value": 0.0203370845,
+              "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
         },
         {
-          "Name": "Enable supersaturation",
-          "Value": 0.0
+          "InternalName": "GlomerularFiltration",
+          "DataSource": "GFR",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "GFR fraction",
+              "Value": 1.0,
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Isoherranen, 2004"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "CompetitiveInhibition",
+          "DataSource": "Isoherranen, 2004",
+          "Molecule": "CYP3A4",
+          "Parameters": [
+            {
+              "Name": "Ki",
+              "Value": 14.4,
+              "Unit": "nmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Isoherranen, 2004"
+              }
+            }
+          ]
+        }
+      ],
+      "CalculationMethods": [
+        "Cellular partition coefficient method - Rodgers and Rowland",
+        "Cellular permeability - PK-Sim Standard"
+      ],
+      "Parameters": [
+        {
+          "Name": "Cl",
+          "Value": 2.0
+        },
+        {
+          "Name": "Molecular weight",
+          "Value": 721.633,
+          "Unit": "g/mol"
         }
       ]
     },
@@ -5166,10 +5158,6 @@
           "Name": "Molecular weight",
           "Value": 719.617,
           "Unit": "g/mol"
-        },
-        {
-          "Name": "Enable supersaturation",
-          "Value": 0.0
         }
       ]
     },
@@ -5306,10 +5294,6 @@
           "Name": "Molecular weight",
           "Value": 649.527,
           "Unit": "g/mol"
-        },
-        {
-          "Name": "Enable supersaturation",
-          "Value": 0.0
         }
       ]
     }
@@ -18335,15 +18319,15 @@
             "MolWeight": 705.633
           },
           "Values": [
-            280.438324,
-            316.9022,
-            359.592926,
-            344.9997,
-            234.611191,
-            149.191315
+            0.2804383,
+            0.3169022,
+            0.3595929,
+            0.3449997,
+            0.2346112,
+            0.1491913
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -18490,20 +18474,20 @@
             "MolWeight": 705.633
           },
           "Values": [
-            197.2476,
-            288.401672,
-            328.4911,
-            393.3159,
-            397.3804,
-            448.256317,
-            485.832672,
-            418.4694,
-            353.3165,
-            323.125519,
-            226.8524
+            0.1972476,
+            0.2884017,
+            0.3284911,
+            0.3933159,
+            0.3973804,
+            0.4482563,
+            0.4858327,
+            0.4184694,
+            0.3533165,
+            0.3231255,
+            0.2268524
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/l"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
