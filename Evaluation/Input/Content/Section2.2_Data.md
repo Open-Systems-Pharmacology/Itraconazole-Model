@@ -65,7 +65,7 @@ A literature search was performed to collect available information on physical c
 
 ### 2.2.2 Clinical data
 
-A literature search was performed to collect available clinical data on itraconazole and its metabolite in adults. The itraconazole model was built and verifified using various clinical studies, covering a dosing range from 100 to 200 mg in different formulations (solution *vs.* capsule), administered under fasted conditions or together with food.
+A literature search was performed to collect available clinical data on itraconazole and its metabolite in adults. The itraconazole model was built and verified using various clinical studies, covering a dosing range from 100 to 200 mg in different formulations (solution *vs.* capsule), administered under fasted conditions or together with food.
 
 The following dosing senarios were simulated and compared to respective data:
 

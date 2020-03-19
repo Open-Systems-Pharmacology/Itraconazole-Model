@@ -10,7 +10,11 @@
 
 **Cheng 1973** Cheng Y, Prusoff WH. Relationship between the inhibition constant (K1) and the concentration of inhibitor which causes 50 per cent inhibition (I50) of an enzymatic reaction. Biochem Pharmacol. 1973 Dec 1;22(23):3099-108.
 
+**DrugBank DB01167** (https://www.drugbank.ca/drugs/DB01167)
+
 **DrugBank DBMET00374** (https://www.drugbank.ca/metabolites/DBMET00374)
+
+**Hanke 2018** Hanke N, Frechen S, Moj D, Britz H, Eissing T, Wendl T, Lehr T. PBPK Models for CYP3A4 and P-gp DDI Prediction: A Modeling Network of Rifampicin, Itraconazole, Clarithromycin, Midazolam, Alfentanil, and Digoxin. CPT Pharmacometrics Syst Pharmacol. 2018 Oct;7(10):647-659.
 
 **Hardin 1988** Hardin TC, Graybill JR, Fetchick R, Woestenborghs R, Rinaldi MG, Kuhn JG. Pharmacokinetics of itraconazole following oral administration to normal volunteers. Antimicrob Agents Chemother. 1988 Sep;32(9):1310-3.
 

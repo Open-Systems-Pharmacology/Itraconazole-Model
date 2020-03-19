@@ -1,11 +1,8 @@
-The PBPK model for midazolam was developed and verified with clinical pharmacokinetic data.
+The PBPK model for itraconazole was developed and verified with clinical pharmacokinetic data.
 
-The model was built and evaluated covering data from studies including in particular
+The model was built and evaluated covering data from various clinical studies, covering a dosing range from 100 to 200 mg in different formulations (solution *vs.* capsule), administered under fasted conditions or together with food.
 
-* intravenous (bolus and infusions) and oral administrations (solution and tablets).
-* a dose range of 0.001 to 40 mg.
-
-The model quantifies metabolism via CYP3A4 and UGT1A4.
+The model quantifies in particular metabolism and inhibition via CYP3A4.
 
 The next sections show:
 

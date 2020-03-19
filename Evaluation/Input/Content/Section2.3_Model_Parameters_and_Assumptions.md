@@ -24,9 +24,13 @@ After testing the available organ-plasma partition coefficient and cell permeabi
 
 Two sequential metabolic pathway via CYP3A4 were implement into the model via Michaelis-Menten kinetics for all four compounds. *In vitro* determined unbound K<sub>m</sub> values ([Isoherranen 2004](#5-References)) served as starting values (if available) . Respective k<sub>cat</sub> values were optimized to best match clinical data (see also [Section 2.3.5](#2.3.5-Automated-Parameter-Identification)).
 
+The CYP3A4 expression profiles is based on high-sensitive real-time RT-PCR ([Nishimura 2013](#5 References)). Absolute tissue-specific expressions were obtained by considering the respective absolute concentration in the liver. The PK-Sim database provides a default value for CYP3A4 (compare [Rodrigues 1999](#5-References) and assume 40 mg protein per gram liver). 
+
 Additionally, for all four compounds a renal clearance (assumed to be driven by glomerular filtration) was implemented.
 
 ### 2.3.4 DDI Parameters
+
+The following sub-sections describe the model's input for DDI-related parameters, i.e. inhibition on certain enzymes and transporters, for which itraconazole may act in a perpetrator role. Verification of these model parameters and linked processes in combination with sensitive CYP3A4 / P-gp substrates is not evaluated in this report. Applications are assessed in specific use cases and reported elsewhere. Note, however, that the competitive CYP3A4 inhibition of the four compounds results in inhibition of metabolite formation (of hydroxy-itraconazole, keto-itraconazole, N-desalkyl-itraconazole) and the metabolism of N-desalkyl-itraconazole. This effectively contributes to the PK non-linearity of itraconazole and its metabolites, especially after multiple doses.
 
 #### CYP3A4 inhibition
 *In vitro* determined unbound K<sub>i</sub> values for itraconazole and hydroxy-itraconazole ([Isoherranen 2004](#5-References)) served directly as model input (see [Section 2.2.1](#2.2.1-In-vitro-and-physico-chemical-data)).
