@@ -9390,7 +9390,8 @@
       "Model": "4Comp",
       "ObservedData": [
         "Barone 1993 - day 1 fasted - Itraconazole - PO - 200 mg - Plasma - agg. (n=28)",
-        "Barone 1993 - day 1 fasted - Hydroxy-Itraconazole - PO - 200 mg - Plasma - agg. (n=28)"
+        "Barone 1993 - day 1 fasted - Hydroxy-Itraconazole - PO - 200 mg - Plasma - agg. (n=28)",
+        "Neuvonen 1996 - ITZ simultaneously with triazolam - Itraconazole - PO - 200 mg - Plasma - agg. (n=10)"
       ],
       "Solver": {},
       "OutputSchema": [
@@ -9595,311 +9596,21 @@
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
+            },
+            {
+              "Name": "Neuvonen 1996 - ITZ simultaneously with triazolam - Itraconazole - PO - 200 mg - Plasma - agg. (n=10)-Itraconazole-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Neuvonen 1996 - ITZ simultaneously with triazolam - Itraconazole - PO - 200 mg - Plasma - agg. (n=10)|Time",
+              "Y": "Neuvonen 1996 - ITZ simultaneously with triazolam - Itraconazole - PO - 200 mg - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Itraconazole|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#C0504D",
+                "LegendIndex": 8,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
             }
           ],
           "Name": "po 200 mg SD caps fast - Plasma",
           "OriginText": "Itraconazole-Model\npo 200 mg SD caps fast\n2019-04-15 13:48"
-        }
-      ],
-      "Interactions": [
-        {
-          "Name": "CYP3A4-Isoherranen, 2004",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Hydroxy-Itraconazole"
-        },
-        {
-          "Name": "CYP3A4-Isoherranen, 2004",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Itraconazole"
-        },
-        {
-          "Name": "CYP3A4-Isoherranen, 2004",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "Keto-Itraconazole"
-        },
-        {
-          "Name": "CYP3A4-Isoherranen, 2004",
-          "MoleculeName": "CYP3A4",
-          "CompoundName": "N-desalkyl-Itraconazole"
-        }
-      ]
-    },
-    {
-      "Name": "po 200 mg SD caps fed",
-      "Model": "4Comp",
-      "ObservedData": [
-        "Barone 1993 - day 1 fed - Itraconazole - PO - 200 mg - Plasma - agg. (n=28)",
-        "Barone 1993 - day 1 fed - Hydroxy-Itraconazole - PO - 200 mg - Plasma - agg. (n=28)",
-        "Barone 1998b - F05 Capsule - Itraconazole - PO - 200 mg - Plasma - agg. (n=30)",
-        "Barone 1998b - F05 Capsule - Hydroxy-Itraconazole - PO - 200 mg - Plasma - agg. (n=30)"
-      ],
-      "Solver": {},
-      "OutputSchema": [
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
-              "Value": 100.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 10.0,
-              "Unit": "pts/h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
-          ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Applications|PO SD 200 mg|Capsule fasted|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|PO SD 200 mg|Capsule fasted|Dissolution shape",
-          "Value": 1.1,
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Capsule fasted' on 2019-05-15 12:25"
-          }
-        },
-        {
-          "Path": "Applications|PO SD 200 mg|Capsule fasted|Dissolution time (50% dissolved)",
-          "Value": 406.64,
-          "Unit": "min",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Capsule fasted' on 2019-05-15 12:25"
-          }
-        },
-        {
-          "Path": "Itraconazole|Solubility at reference pH",
-          "Value": 0.69,
-          "Unit": "mg/l",
-          "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Value updated from 'Capsule fasted' on 2019-05-15 12:25"
-          }
-        }
-      ],
-      "OutputSelections": [
-        "Organism|PeripheralVenousBlood|Hydroxy-Itraconazole|Plasma (Peripheral Venous Blood)",
-        "Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)"
-      ],
-      "Individual": "European (P-gp modified, CYP3A4 36 h)",
-      "Compounds": [
-        {
-          "Name": "Hydroxy-Itraconazole",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Processes": [
-            {
-              "Name": "CYP3A4-Isoherranen 2004",
-              "MoleculeName": "CYP3A4",
-              "MetaboliteName": "Keto-Itraconazole"
-            },
-            {
-              "Name": "Glomerular Filtration-GFR"
-            }
-          ]
-        },
-        {
-          "Name": "Itraconazole",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "Capsule fasted",
-              "GroupName": "COMPOUND_SOLUBILITY"
-            },
-            {
-              "AlternativeName": "Calculated",
-              "GroupName": "COMPOUND_PERMEABILITY"
-            },
-            {
-              "AlternativeName": "Fit",
-              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "Name": "CYP3A4-Isoherranen 2004",
-              "MoleculeName": "CYP3A4",
-              "MetaboliteName": "Hydroxy-Itraconazole"
-            },
-            {
-              "Name": "Glomerular Filtration-GFR"
-            }
-          ],
-          "Protocol": {
-            "Name": "PO SD 200 mg",
-            "Formulations": [
-              {
-                "Name": "Capsule fasted",
-                "Key": "Formulation"
-              }
-            ]
-          }
-        },
-        {
-          "Name": "Keto-Itraconazole",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Processes": [
-            {
-              "Name": "CYP3A4-Isoherranen 2004",
-              "MoleculeName": "CYP3A4",
-              "MetaboliteName": "N-desalkyl-Itraconazole"
-            },
-            {
-              "Name": "Glomerular Filtration-GFR"
-            }
-          ]
-        },
-        {
-          "Name": "N-desalkyl-Itraconazole",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Processes": [
-            {
-              "Name": "CYP3A4-Isoherranen 2004",
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "Name": "Glomerular Filtration-GFR"
-            }
-          ]
-        }
-      ],
-      "Events": [
-        {
-          "Name": "High Fat Breakfast",
-          "StartTime": {
-            "Value": 0.0,
-            "Unit": "h"
-          }
-        }
-      ],
-      "HasResults": true,
-      "IndividualAnalyses": [
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "Min": -5.08,
-              "Max": 106.475,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "µg/l",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 0.8380451,
-              "Max": 1245.367,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "po 200 mg SD caps fed-Hydroxy-Itraconazole-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "po 200 mg SD caps fed|Organism|PeripheralVenousBlood|Hydroxy-Itraconazole|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#0000FF",
-                "LegendIndex": 3
-              }
-            },
-            {
-              "Name": "po 200 mg SD caps fed-Itraconazole-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "po 200 mg SD caps fed|Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 2
-              }
-            },
-            {
-              "Name": "Barone 1993 - day 1 fed - Hydroxy-Itraconazole - PO - 200 mg - Plasma - agg. (n=28)-Hydroxy-Itraconazole-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Barone 1993 - day 1 fed - Hydroxy-Itraconazole - PO - 200 mg - Plasma - agg. (n=28)|Time",
-              "Y": "Barone 1993 - day 1 fed - Hydroxy-Itraconazole - PO - 200 mg - Plasma - agg. (n=28)|ObservedData|Peripheral Venous Blood|Plasma|Hydroxy-Itraconazole|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#95B3D7",
-                "LegendIndex": 5,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Barone 1993 - day 1 fed - Itraconazole - PO - 200 mg - Plasma - agg. (n=28)-Itraconazole-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Barone 1993 - day 1 fed - Itraconazole - PO - 200 mg - Plasma - agg. (n=28)|Time",
-              "Y": "Barone 1993 - day 1 fed - Itraconazole - PO - 200 mg - Plasma - agg. (n=28)|ObservedData|Peripheral Venous Blood|Plasma|Itraconazole|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#D99694",
-                "LegendIndex": 4,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Barone 1998b - F05 Capsule - Itraconazole - PO - 200 mg - Plasma - agg. (n=30)-Itraconazole-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Barone 1998b - F05 Capsule - Itraconazole - PO - 200 mg - Plasma - agg. (n=30)|Time",
-              "Y": "Barone 1998b - F05 Capsule - Itraconazole - PO - 200 mg - Plasma - agg. (n=30)|ObservedData|Peripheral Venous Blood|Plasma|Itraconazole|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#953734",
-                "LegendIndex": 6,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Barone 1998b - F05 Capsule - Hydroxy-Itraconazole - PO - 200 mg - Plasma - agg. (n=30)-Hydroxy-Itraconazole-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Barone 1998b - F05 Capsule - Hydroxy-Itraconazole - PO - 200 mg - Plasma - agg. (n=30)|Time",
-              "Y": "Barone 1998b - F05 Capsule - Hydroxy-Itraconazole - PO - 200 mg - Plasma - agg. (n=30)|ObservedData|Peripheral Venous Blood|Plasma|Hydroxy-Itraconazole|ArithmeticMean",
-              "CurveOptions": {
-                "Color": "#366092",
-                "LegendIndex": 7,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "po 200 mg SD caps fed - Plasma",
-          "OriginText": "Itraconazole-Model\npo 200 mg SD caps fed\n2019-04-15 14:20"
         }
       ],
       "Interactions": [
@@ -13508,7 +13219,8 @@
       "Model": "4Comp",
       "ObservedData": [
         "Olkkola 1994 - po with Perpetrator (Itraconazole) - Itraconazole - PO - 200 mg - Plasma - agg. (n=9)",
-        "Jalava 1997 - po with Perpetrator (Itraconazole) - Itraconazole - PO - 200 mg - Plasma - agg. (n=10)"
+        "Jalava 1997 - po with Perpetrator (Itraconazole) - Itraconazole - PO - 200 mg - Plasma - agg. (n=10)",
+        "Varhe 1994 - Itraconazole on day 4 - Itraconazole - PO - 200 mg - Plasma - agg. (n=9)"
       ],
       "Solver": {},
       "OutputSchema": [
@@ -13722,6 +13434,17 @@
               "CurveOptions": {
                 "Color": "#0000FF",
                 "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Varhe 1994 - Itraconazole on day 4 - Itraconazole - PO - 200 mg - Plasma - agg. (n=9)-Itraconazole-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Varhe 1994 - Itraconazole on day 4 - Itraconazole - PO - 200 mg - Plasma - agg. (n=9)|Time",
+              "Y": "Varhe 1994 - Itraconazole on day 4 - Itraconazole - PO - 200 mg - Plasma - agg. (n=9)|ObservedData|Peripheral Venous Blood|Plasma|Itraconazole|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 5,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
@@ -13983,6 +13706,532 @@
           ],
           "Name": "po 100 mg MD BID caps fast - Plasma",
           "OriginText": "Itraconazole-Model\npo 100 mg MD BID caps fast\n2020-03-10 15:19"
+        }
+      ],
+      "Interactions": [
+        {
+          "Name": "CYP3A4-Isoherranen, 2004",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Hydroxy-Itraconazole"
+        },
+        {
+          "Name": "CYP3A4-Isoherranen, 2004",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Itraconazole"
+        },
+        {
+          "Name": "CYP3A4-Isoherranen, 2004",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Keto-Itraconazole"
+        },
+        {
+          "Name": "CYP3A4-Isoherranen, 2004",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "N-desalkyl-Itraconazole"
+        }
+      ]
+    },
+    {
+      "Name": "po 200 mg SD caps fed",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Barone 1993 - day 1 fed - Itraconazole - PO - 200 mg - Plasma - agg. (n=28)",
+        "Barone 1993 - day 1 fed - Hydroxy-Itraconazole - PO - 200 mg - Plasma - agg. (n=28)",
+        "Barone 1998b - F05 Capsule - Itraconazole - PO - 200 mg - Plasma - agg. (n=30)",
+        "Barone 1998b - F05 Capsule - Hydroxy-Itraconazole - PO - 200 mg - Plasma - agg. (n=30)"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 100.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 10.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|PO SD 200 mg|Capsule fed|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Hydroxy-Itraconazole|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Keto-Itraconazole|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|N-desalkyl-Itraconazole|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "European (P-gp modified, CYP3A4 36 h)",
+      "Compounds": [
+        {
+          "Name": "Hydroxy-Itraconazole",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-Isoherranen 2004",
+              "MoleculeName": "CYP3A4",
+              "MetaboliteName": "Keto-Itraconazole"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR"
+            }
+          ]
+        },
+        {
+          "Name": "Itraconazole",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Capsule fed",
+              "GroupName": "COMPOUND_SOLUBILITY"
+            },
+            {
+              "AlternativeName": "Calculated",
+              "GroupName": "COMPOUND_PERMEABILITY"
+            },
+            {
+              "AlternativeName": "Fit",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-Isoherranen 2004",
+              "MoleculeName": "CYP3A4",
+              "MetaboliteName": "Hydroxy-Itraconazole"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "PO SD 200 mg",
+            "Formulations": [
+              {
+                "Name": "Capsule fed",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Keto-Itraconazole",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-Isoherranen 2004",
+              "MoleculeName": "CYP3A4",
+              "MetaboliteName": "N-desalkyl-Itraconazole"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR"
+            }
+          ]
+        },
+        {
+          "Name": "N-desalkyl-Itraconazole",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-Isoherranen 2004",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR"
+            }
+          ]
+        }
+      ],
+      "Events": [
+        {
+          "Name": "High Fat Breakfast",
+          "StartTime": {
+            "Value": 0.0,
+            "Unit": "h"
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": -3.51098752,
+              "Max": 101.984848,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.6488139,
+              "Max": 2197.201,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "po 200 mg SD caps fed-Hydroxy-Itraconazole-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "po 200 mg SD caps fed|Organism|PeripheralVenousBlood|Hydroxy-Itraconazole|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 3
+              }
+            },
+            {
+              "Name": "po 200 mg SD caps fed-Itraconazole-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "po 200 mg SD caps fed|Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2
+              }
+            },
+            {
+              "Name": "Barone 1993 - day 1 fed - Hydroxy-Itraconazole - PO - 200 mg - Plasma - agg. (n=28)-Hydroxy-Itraconazole-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Barone 1993 - day 1 fed - Hydroxy-Itraconazole - PO - 200 mg - Plasma - agg. (n=28)|Time",
+              "Y": "Barone 1993 - day 1 fed - Hydroxy-Itraconazole - PO - 200 mg - Plasma - agg. (n=28)|ObservedData|Peripheral Venous Blood|Plasma|Hydroxy-Itraconazole|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#95B3D7",
+                "LegendIndex": 5,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Barone 1993 - day 1 fed - Itraconazole - PO - 200 mg - Plasma - agg. (n=28)-Itraconazole-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Barone 1993 - day 1 fed - Itraconazole - PO - 200 mg - Plasma - agg. (n=28)|Time",
+              "Y": "Barone 1993 - day 1 fed - Itraconazole - PO - 200 mg - Plasma - agg. (n=28)|ObservedData|Peripheral Venous Blood|Plasma|Itraconazole|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#D99694",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Barone 1998b - F05 Capsule - Itraconazole - PO - 200 mg - Plasma - agg. (n=30)-Itraconazole-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Barone 1998b - F05 Capsule - Itraconazole - PO - 200 mg - Plasma - agg. (n=30)|Time",
+              "Y": "Barone 1998b - F05 Capsule - Itraconazole - PO - 200 mg - Plasma - agg. (n=30)|ObservedData|Peripheral Venous Blood|Plasma|Itraconazole|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#953734",
+                "LegendIndex": 6,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Barone 1998b - F05 Capsule - Hydroxy-Itraconazole - PO - 200 mg - Plasma - agg. (n=30)-Hydroxy-Itraconazole-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Barone 1998b - F05 Capsule - Hydroxy-Itraconazole - PO - 200 mg - Plasma - agg. (n=30)|Time",
+              "Y": "Barone 1998b - F05 Capsule - Hydroxy-Itraconazole - PO - 200 mg - Plasma - agg. (n=30)|ObservedData|Peripheral Venous Blood|Plasma|Hydroxy-Itraconazole|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#366092",
+                "LegendIndex": 7,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "po 200 mg SD caps fed - Plasma",
+          "OriginText": "Itraconazole-Model\npo 200 mg SD caps fed\n2020-03-23 13:56"
+        }
+      ],
+      "Interactions": [
+        {
+          "Name": "CYP3A4-Isoherranen, 2004",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Hydroxy-Itraconazole"
+        },
+        {
+          "Name": "CYP3A4-Isoherranen, 2004",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Itraconazole"
+        },
+        {
+          "Name": "CYP3A4-Isoherranen, 2004",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "Keto-Itraconazole"
+        },
+        {
+          "Name": "CYP3A4-Isoherranen, 2004",
+          "MoleculeName": "CYP3A4",
+          "CompoundName": "N-desalkyl-Itraconazole"
+        }
+      ]
+    },
+    {
+      "Name": "po 200 mg SD caps fed 2",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Neuvonen 1996 - ITZ 3 hr before triazolam - Itraconazole - PO - 200 mg - Plasma - agg. (n=10)",
+        "Neuvonen 1996 - ITZ 24 hr before triazolam - Itraconazole - PO - 200 mg - Plasma - agg. (n=10)",
+        "Neuvonen 1996 - ITZ 12 hr before triazolam - Itraconazole - PO - 200 mg - Plasma - agg. (n=10)"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 48.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 10.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|PO SD 200 mg|Capsule fed|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Hydroxy-Itraconazole|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Keto-Itraconazole|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|N-desalkyl-Itraconazole|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "European (P-gp modified, CYP3A4 36 h)",
+      "Compounds": [
+        {
+          "Name": "Hydroxy-Itraconazole",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-Isoherranen 2004",
+              "MoleculeName": "CYP3A4",
+              "MetaboliteName": "Keto-Itraconazole"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR"
+            }
+          ]
+        },
+        {
+          "Name": "Itraconazole",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Capsule fed",
+              "GroupName": "COMPOUND_SOLUBILITY"
+            },
+            {
+              "AlternativeName": "Calculated",
+              "GroupName": "COMPOUND_PERMEABILITY"
+            },
+            {
+              "AlternativeName": "Fit",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-Isoherranen 2004",
+              "MoleculeName": "CYP3A4",
+              "MetaboliteName": "Hydroxy-Itraconazole"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "PO SD 200 mg",
+            "Formulations": [
+              {
+                "Name": "Capsule fed",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Keto-Itraconazole",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-Isoherranen 2004",
+              "MoleculeName": "CYP3A4",
+              "MetaboliteName": "N-desalkyl-Itraconazole"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR"
+            }
+          ]
+        },
+        {
+          "Name": "N-desalkyl-Itraconazole",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-Isoherranen 2004",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR"
+            }
+          ]
+        }
+      ],
+      "Events": [
+        {
+          "Name": "Standard Meal",
+          "StartTime": {
+            "Value": 0.0,
+            "Unit": "h"
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": -1.61278784,
+              "Max": 49.7127876,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.00351806916,
+              "Max": 0.485502183,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Neuvonen 1996 - ITZ 12 hr before triazolam - Itraconazole - PO - 200 mg - Plasma - agg. (n=10)-Itraconazole-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Neuvonen 1996 - ITZ 12 hr before triazolam - Itraconazole - PO - 200 mg - Plasma - agg. (n=10)|Time",
+              "Y": "Neuvonen 1996 - ITZ 12 hr before triazolam - Itraconazole - PO - 200 mg - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Itraconazole|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "po 200 mg SD caps fed 2-Itraconazole-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "po 200 mg SD caps fed 2|Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Neuvonen 1996 - ITZ 3 hr before triazolam - Itraconazole - PO - 200 mg - Plasma - agg. (n=10)-Itraconazole-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Neuvonen 1996 - ITZ 3 hr before triazolam - Itraconazole - PO - 200 mg - Plasma - agg. (n=10)|Time",
+              "Y": "Neuvonen 1996 - ITZ 3 hr before triazolam - Itraconazole - PO - 200 mg - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Itraconazole|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Neuvonen 1996 - ITZ 24 hr before triazolam - Itraconazole - PO - 200 mg - Plasma - agg. (n=10)-Itraconazole-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Neuvonen 1996 - ITZ 24 hr before triazolam - Itraconazole - PO - 200 mg - Plasma - agg. (n=10)|Time",
+              "Y": "Neuvonen 1996 - ITZ 24 hr before triazolam - Itraconazole - PO - 200 mg - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Itraconazole|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "po 200 mg SD caps fed 2 - Plasma",
+          "OriginText": "Itraconazole-Model\npo 200 mg SD caps fed 2\n2020-03-23 14:12"
         }
       ],
       "Interactions": [
@@ -14383,22 +14632,22 @@
             "MolWeight": 705.633
           },
           "Values": [
-            0.000555922452,
-            0.0113646388,
-            0.07251016,
-            0.1023226,
-            0.1185971,
-            0.1185971,
-            0.09122502,
-            0.0690289661,
-            0.04220424,
-            0.02377215,
-            0.01684596,
-            0.0101320706,
-            0.003787456
+            0.555922449,
+            11.3646393,
+            72.51016,
+            102.3226,
+            118.5971,
+            118.5971,
+            91.22502,
+            69.02896,
+            42.20424,
+            23.77215,
+            16.8459587,
+            10.1320705,
+            3.787456
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/l"
         }
       ],
       "BaseGrid": {
@@ -14522,22 +14771,22 @@
             "MolWeight": 721.633
           },
           "Values": [
-            0.0008656093,
-            0.01984818,
-            0.128732,
-            0.2175739,
-            0.260588,
-            0.278256,
-            0.2400722,
-            0.2071282,
-            0.1567316,
-            0.0787066445,
-            0.03952448,
-            0.01920772,
-            0.002961488
+            0.8656093,
+            19.8481789,
+            128.732,
+            217.5739,
+            260.587982,
+            278.256,
+            240.0722,
+            207.128189,
+            156.7316,
+            78.70664,
+            39.52448,
+            19.20772,
+            2.961488
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/l"
         }
       ],
       "BaseGrid": {
@@ -14661,21 +14910,21 @@
             "MolWeight": 705.633
           },
           "Values": [
-            0.0147746,
-            0.0787066445,
-            0.1516742,
-            0.203759,
-            0.203759,
-            0.1673581,
-            0.124578096,
-            0.07616693,
-            0.03762691,
-            0.02580364,
-            0.01858792,
-            0.008053469
+            14.7746,
+            78.70664,
+            151.6742,
+            203.759,
+            203.759,
+            167.3581,
+            124.578094,
+            76.16692,
+            37.62691,
+            25.80364,
+            18.5879211,
+            8.053468
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/l"
         }
       ],
       "BaseGrid": {
@@ -14798,21 +15047,21 @@
             "MolWeight": 721.633
           },
           "Values": [
-            0.04220424,
-            0.1467799,
-            0.264896929,
-            0.361746728,
-            0.3738088,
-            0.3558624,
-            0.322512776,
-            0.2521793,
-            0.1330245,
-            0.06680151,
-            0.0319354832,
-            0.003432516
+            42.20424,
+            146.779892,
+            264.8969,
+            361.7467,
+            373.8088,
+            355.8624,
+            322.5128,
+            252.179291,
+            133.0245,
+            66.80151,
+            31.935482,
+            3.432516
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/l"
         }
       ],
       "BaseGrid": {
@@ -16587,20 +16836,20 @@
             "MolWeight": 705.633
           },
           "Values": [
-            0.0485623,
-            0.144409,
-            0.29904145,
-            0.2504792,
-            0.1750799,
-            0.0971246,
-            0.05367412,
-            0.0370607,
-            0.02300319,
-            0.01405751,
-            0.00766773243
+            48.5622978,
+            144.409,
+            299.041473,
+            250.479187,
+            175.0799,
+            97.1245956,
+            53.67412,
+            37.0607,
+            23.003191,
+            14.0575094,
+            7.66773224
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/l"
         }
       ],
       "BaseGrid": {
@@ -16722,20 +16971,20 @@
             "MolWeight": 721.633
           },
           "Values": [
-            0.0012765961,
-            0.0817021355,
-            0.24,
-            0.3957447,
-            0.486383,
-            0.4340425,
-            0.348510653,
-            0.194042578,
-            0.1008511,
-            0.05234043,
-            0.007659575
+            1.27659607,
+            81.70213,
+            239.999985,
+            395.74472,
+            486.383,
+            434.0425,
+            348.510651,
+            194.042587,
+            100.851105,
+            52.3404274,
+            7.659575
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/l"
         }
       ],
       "BaseGrid": {
@@ -18474,20 +18723,20 @@
             "MolWeight": 705.633
           },
           "Values": [
-            0.1972476,
-            0.2884017,
-            0.3284911,
-            0.3933159,
-            0.3973804,
-            0.4482563,
-            0.4858327,
-            0.4184694,
-            0.3533165,
-            0.3231255,
-            0.2268524
+            197.2476,
+            288.401672,
+            328.4911,
+            393.3159,
+            397.3804,
+            448.256317,
+            485.832672,
+            418.4694,
+            353.3165,
+            323.125519,
+            226.8524
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/l"
         }
       ],
       "BaseGrid": {
@@ -28328,6 +28577,668 @@
         "Dimension": "Time",
         "Unit": "h"
       }
+    },
+    {
+      "Name": "Varhe 1994 - Itraconazole on day 4 - Itraconazole - PO - 200 mg - Plasma - agg. (n=9)",
+      "ExtendedProperties": [
+        {
+          "Name": "DB Version",
+          "Value": "OSP DATABASE"
+        },
+        {
+          "Name": "ID",
+          "Value": 1040.0
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Varhe 1994"
+        },
+        {
+          "Name": "Reference",
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/7995001"
+        },
+        {
+          "Name": "Source",
+          "Value": "Fig. 1"
+        },
+        {
+          "Name": "Grouping",
+          "Value": "Itraconazole on day 4"
+        },
+        {
+          "Name": "Data type",
+          "Value": "aggregated"
+        },
+        {
+          "Name": "N",
+          "Value": 9.0
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Itraconazole"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO"
+        },
+        {
+          "Name": "Dose",
+          "Value": "200 mg"
+        },
+        {
+          "Name": "Times of Administration [h]",
+          "Value": "S0-T24-R4"
+        },
+        {
+          "Name": "Formulation",
+          "Value": "Sporanox, Orion"
+        },
+        {
+          "Name": "Food state",
+          "Value": "Fasted"
+        },
+        {
+          "Name": "Comment",
+          "Value": "."
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Avg",
+          "QuantityInfo": {
+            "Name": "Avg",
+            "Path": "Varhe 1994 - Itraconazole on day 4 - Itraconazole - PO - 200 mg - Plasma - agg. (n=9)|ObservedData|Peripheral Venous Blood|Plasma|Itraconazole|ArithmeticMean"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "0001-01-01T00:00:00",
+            "MolWeight": 705.63,
+            "LLOQ": 2E-07
+          },
+          "Values": [
+            234.12851,
+            284.935425,
+            285.517029,
+            220.062408,
+            152.937
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "µg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Varhe 1994 - Itraconazole on day 4 - Itraconazole - PO - 200 mg - Plasma - agg. (n=9)|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "0001-01-01T00:00:00"
+        },
+        "Values": [
+          74.0,
+          75.0,
+          77.0,
+          80.0,
+          90.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Neuvonen 1996 - ITZ simultaneously with triazolam - Itraconazole - PO - 200 mg - Plasma - agg. (n=10)",
+      "ExtendedProperties": [
+        {
+          "Name": "DB Version",
+          "Value": "OSP DATABASE"
+        },
+        {
+          "Name": "ID",
+          "Value": 1082.0
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Neuvonen 1996"
+        },
+        {
+          "Name": "Reference",
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/8841155"
+        },
+        {
+          "Name": "Source",
+          "Value": "Fig. 1"
+        },
+        {
+          "Name": "Grouping",
+          "Value": "ITZ simultaneously with triazolam"
+        },
+        {
+          "Name": "Data type",
+          "Value": "aggregated"
+        },
+        {
+          "Name": "N",
+          "Value": 10.0
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Itraconazole"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO"
+        },
+        {
+          "Name": "Dose",
+          "Value": "200 mg"
+        },
+        {
+          "Name": "Times of Administration [h]",
+          "Value": 0.0
+        },
+        {
+          "Name": "Formulation",
+          "Value": "Sporanox, Janssen Pharma, Beerse, Belgium"
+        },
+        {
+          "Name": "Food state",
+          "Value": "fasted"
+        },
+        {
+          "Name": "Comment",
+          "Value": "."
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Avg",
+          "QuantityInfo": {
+            "Name": "Avg",
+            "Path": "Neuvonen 1996 - ITZ simultaneously with triazolam - Itraconazole - PO - 200 mg - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Itraconazole|ArithmeticMean"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "0001-01-01T00:00:00",
+            "MolWeight": 705.63
+          },
+          "Values": [
+            1.089475,
+            12.67074,
+            25.65063,
+            36.88224,
+            51.29913,
+            71.31049,
+            87.82745,
+            79.86852,
+            74.35293,
+            29.01926
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "µg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Neuvonen 1996 - ITZ simultaneously with triazolam - Itraconazole - PO - 200 mg - Plasma - agg. (n=10)|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "0001-01-01T00:00:00"
+        },
+        "Values": [
+          0.5,
+          1.0,
+          1.5,
+          2.0,
+          3.0,
+          4.0,
+          5.0,
+          6.0,
+          7.0,
+          17.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Neuvonen 1996 - ITZ 3 hr before triazolam - Itraconazole - PO - 200 mg - Plasma - agg. (n=10)",
+      "ExtendedProperties": [
+        {
+          "Name": "DB Version",
+          "Value": "OSP DATABASE"
+        },
+        {
+          "Name": "ID",
+          "Value": 1083.0
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Neuvonen 1996"
+        },
+        {
+          "Name": "Reference",
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/8841155"
+        },
+        {
+          "Name": "Source",
+          "Value": "Fig. 1"
+        },
+        {
+          "Name": "Grouping",
+          "Value": "ITZ 3 hr before triazolam"
+        },
+        {
+          "Name": "Data type",
+          "Value": "aggregated"
+        },
+        {
+          "Name": "N",
+          "Value": 10.0
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Itraconazole"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO"
+        },
+        {
+          "Name": "Dose",
+          "Value": "200 mg"
+        },
+        {
+          "Name": "Times of Administration [h]",
+          "Value": 0.0
+        },
+        {
+          "Name": "Formulation",
+          "Value": "Sporanox, Janssen Pharma, Beerse, Belgium"
+        },
+        {
+          "Name": "Food state",
+          "Value": "fed"
+        },
+        {
+          "Name": "Comment",
+          "Value": "."
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Avg",
+          "QuantityInfo": {
+            "Name": "Avg",
+            "Path": "Neuvonen 1996 - ITZ 3 hr before triazolam - Itraconazole - PO - 200 mg - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Itraconazole|ArithmeticMean"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "0001-01-01T00:00:00",
+            "MolWeight": 705.63
+          },
+          "Values": [
+            0.0513993278,
+            0.09934475,
+            0.1151219,
+            0.129496083,
+            0.1480705,
+            0.142906681,
+            0.145092,
+            0.143073,
+            0.1186803,
+            0.09987776,
+            0.0482503
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Neuvonen 1996 - ITZ 3 hr before triazolam - Itraconazole - PO - 200 mg - Plasma - agg. (n=10)|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "0001-01-01T00:00:00"
+        },
+        "Values": [
+          3.0,
+          3.5,
+          4.0,
+          4.5,
+          5.0,
+          6.0,
+          7.0,
+          8.0,
+          9.0,
+          10.0,
+          20.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Neuvonen 1996 - ITZ 12 hr before triazolam - Itraconazole - PO - 200 mg - Plasma - agg. (n=10)",
+      "ExtendedProperties": [
+        {
+          "Name": "DB Version",
+          "Value": "OSP DATABASE"
+        },
+        {
+          "Name": "ID",
+          "Value": 1084.0
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Neuvonen 1996"
+        },
+        {
+          "Name": "Reference",
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/8841155"
+        },
+        {
+          "Name": "Source",
+          "Value": "Fig. 1"
+        },
+        {
+          "Name": "Grouping",
+          "Value": "ITZ 12 hr before triazolam"
+        },
+        {
+          "Name": "Data type",
+          "Value": "aggregated"
+        },
+        {
+          "Name": "N",
+          "Value": 10.0
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Itraconazole"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO"
+        },
+        {
+          "Name": "Dose",
+          "Value": "200 mg"
+        },
+        {
+          "Name": "Times of Administration [h]",
+          "Value": 0.0
+        },
+        {
+          "Name": "Formulation",
+          "Value": "Sporanox, Janssen Pharma, Beerse, Belgium"
+        },
+        {
+          "Name": "Food state",
+          "Value": "fed"
+        },
+        {
+          "Name": "Comment",
+          "Value": "."
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Avg",
+          "QuantityInfo": {
+            "Name": "Avg",
+            "Path": "Neuvonen 1996 - ITZ 12 hr before triazolam - Itraconazole - PO - 200 mg - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Itraconazole|ArithmeticMean"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "0001-01-01T00:00:00",
+            "MolWeight": 705.63
+          },
+          "Values": [
+            0.05454623,
+            0.04689645,
+            0.04484116,
+            0.04523133,
+            0.04387108,
+            0.04150878,
+            0.04089262,
+            0.0318826,
+            0.0270705689,
+            0.02784877,
+            0.02167863
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Neuvonen 1996 - ITZ 12 hr before triazolam - Itraconazole - PO - 200 mg - Plasma - agg. (n=10)|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "0001-01-01T00:00:00"
+        },
+        "Values": [
+          12.0,
+          12.5,
+          13.0,
+          13.5,
+          14.0,
+          15.0,
+          16.0,
+          17.0,
+          18.0,
+          19.0,
+          29.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Neuvonen 1996 - ITZ 24 hr before triazolam - Itraconazole - PO - 200 mg - Plasma - agg. (n=10)",
+      "ExtendedProperties": [
+        {
+          "Name": "DB Version",
+          "Value": "OSP DATABASE"
+        },
+        {
+          "Name": "ID",
+          "Value": 1085.0
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Neuvonen 1996"
+        },
+        {
+          "Name": "Reference",
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/8841155"
+        },
+        {
+          "Name": "Source",
+          "Value": "Fig. 1"
+        },
+        {
+          "Name": "Grouping",
+          "Value": "ITZ 24 hr before triazolam"
+        },
+        {
+          "Name": "Data type",
+          "Value": "aggregated"
+        },
+        {
+          "Name": "N",
+          "Value": 10.0
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Itraconazole"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO"
+        },
+        {
+          "Name": "Dose",
+          "Value": "200 mg"
+        },
+        {
+          "Name": "Times of Administration [h]",
+          "Value": 0.0
+        },
+        {
+          "Name": "Formulation",
+          "Value": "Sporanox, Janssen Pharma, Beerse, Belgium"
+        },
+        {
+          "Name": "Food state",
+          "Value": "fed"
+        },
+        {
+          "Name": "Comment",
+          "Value": "."
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Avg",
+          "QuantityInfo": {
+            "Name": "Avg",
+            "Path": "Neuvonen 1996 - ITZ 24 hr before triazolam - Itraconazole - PO - 200 mg - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Itraconazole|ArithmeticMean"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "0001-01-01T00:00:00",
+            "MolWeight": 705.63
+          },
+          "Values": [
+            0.0416089781,
+            0.03955369,
+            0.03784592,
+            0.04033615,
+            0.0393276922,
+            0.03801009,
+            0.0384429023,
+            0.03223225,
+            0.02741809,
+            0.02820055,
+            0.02307512
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Neuvonen 1996 - ITZ 24 hr before triazolam - Itraconazole - PO - 200 mg - Plasma - agg. (n=10)|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "0001-01-01T00:00:00"
+        },
+        "Values": [
+          24.0,
+          24.5,
+          25.0,
+          25.5,
+          26.0,
+          27.0,
+          28.0,
+          29.0,
+          30.0,
+          31.0,
+          41.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
     }
   ],
   "ObservedDataClassifications": [
@@ -28828,6 +29739,21 @@
       "Classifiables": [
         "Jalava 1997 - po with Perpetrator (Itraconazole) - Itraconazole - PO - 200 mg - Plasma - agg. (n=10)"
       ]
+    },
+    {
+      "Name": "Varhe 1994",
+      "Classifiables": [
+        "Varhe 1994 - Itraconazole on day 4 - Itraconazole - PO - 200 mg - Plasma - agg. (n=9)"
+      ]
+    },
+    {
+      "Name": "Neuvonen 1996",
+      "Classifiables": [
+        "Neuvonen 1996 - ITZ simultaneously with triazolam - Itraconazole - PO - 200 mg - Plasma - agg. (n=10)",
+        "Neuvonen 1996 - ITZ 3 hr before triazolam - Itraconazole - PO - 200 mg - Plasma - agg. (n=10)",
+        "Neuvonen 1996 - ITZ 12 hr before triazolam - Itraconazole - PO - 200 mg - Plasma - agg. (n=10)",
+        "Neuvonen 1996 - ITZ 24 hr before triazolam - Itraconazole - PO - 200 mg - Plasma - agg. (n=10)"
+      ]
     }
   ],
   "SimulationClassifications": [
@@ -28861,8 +29787,9 @@
                 "po 100 mg SD caps fed",
                 "po 200 mg MD BID caps fed 1",
                 "po 200 mg MD BID caps fed 2",
+                "po 200 mg MD OD caps fed",
                 "po 200 mg SD caps fed",
-                "po 200 mg MD OD caps fed"
+                "po 200 mg SD caps fed 2"
               ]
             }
           ]

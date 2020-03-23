@@ -188,6 +188,11 @@
             {
                 "SectionId": 33,
                 "Project": "Itraconazole",
+                "Simulation": "po 200 mg SD caps fed 2"
+            },
+            {
+                "SectionId": 33,
+                "Project": "Itraconazole",
                 "Simulation": "po 100 mg MD OD sol fast"
             },
             {
@@ -365,9 +370,23 @@
                             },
                             {
                                 "Project": "Itraconazole",
+                                "Simulation": "po 200 mg MD OD caps fast",
+                                "Output": "Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Varhe 1994 - Itraconazole on day 4 - Itraconazole - PO - 200 mg - Plasma - agg. (n=9)",
+                                "Color": "#ffa500"
+                            },
+                            {
+                                "Project": "Itraconazole",
                                 "Simulation": "po 200 mg SD caps fast",
                                 "Output": "Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Barone 1993 - day 1 fasted - Itraconazole - PO - 200 mg - Plasma - agg. (n=28)",
+                                "Color": "#ffa500"
+                            },
+                            {
+                                "Project": "Itraconazole",
+                                "Simulation": "po 200 mg SD caps fast",
+                                "Output": "Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Neuvonen 1996 - ITZ simultaneously with triazolam - Itraconazole - PO - 200 mg - Plasma - agg. (n=10)",
                                 "Color": "#ffa500"
                             }
                         ]
@@ -472,6 +491,27 @@
                                 "Simulation": "po 200 mg SD caps fed",
                                 "Output": "Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "Barone 1998b - F05 Capsule - Itraconazole - PO - 200 mg - Plasma - agg. (n=30)",
+                                "Color": "#6a0241"
+                            },
+                            {
+                                "Project": "Itraconazole",
+                                "Simulation": "po 200 mg SD caps fed 2",
+                                "Output": "Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Neuvonen 1996 - ITZ 3 hr before triazolam - Itraconazole - PO - 200 mg - Plasma - agg. (n=10)",
+                                "Color": "#6a0241"
+                            },
+                            {
+                                "Project": "Itraconazole",
+                                "Simulation": "po 200 mg SD caps fed 2",
+                                "Output": "Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Neuvonen 1996 - ITZ 12 hr before triazolam - Itraconazole - PO - 200 mg - Plasma - agg. (n=10)",
+                                "Color": "#6a0241"
+                            },
+                            {
+                                "Project": "Itraconazole",
+                                "Simulation": "po 200 mg SD caps fed 2",
+                                "Output": "Organism|PeripheralVenousBlood|Itraconazole|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Neuvonen 1996 - ITZ 24 hr before triazolam - Itraconazole - PO - 200 mg - Plasma - agg. (n=10)",
                                 "Color": "#6a0241"
                             }
                         ]

@@ -84,13 +84,16 @@ The following dosing senarios were simulated and compared to respective data:
 |       | capsule     | fasted     | 100            | SD     | Itraconazole                                                 | mbe                  | [Van  Peer 1989](5-References)     |
 |       |             |            |                | BID    | Itraconazole                                                 | mv                   | [Kivistö 1997](5-References)       |
 |       |             |            | 200            | SD     | Itraconazole<br />Hydroxy-Itr.                               | mbe                  | [Barone  1993](5-References)       |
+|       |             |            |                |        | Itraconazole                                                 | mv                   | [Neuvonen 1996](5-References)      |
 |       |             |            |                | OD     | Itraconazole                                                 | mbe                  | [Jalava  1997](5-References)       |
-|       |             |            |                | OD     | Itraconazole                                                 | mbe                  | [Olkkola  1994](5-References)      |
+|       |             |            |                |        | Itraconazole                                                 | mbe                  | [Olkkola  1994](5-References)      |
+|       |             |            |                |        | Itraconazole                                                 | mv                   | [Varhe 1994](5-References)         |
 |       |             | fed        | 100            | SD     | Itraconazole                                                 | mbe                  | [Van Peer  1989](5-References)     |
 |       |             |            |                | OD     | Itraconazole                                                 | mbe                  | [Van Peer  1989](5-References)     |
 |       |             |            |                |        | Itraconazole                                                 | mv                   | [Hardin  1988](5-References)       |
 |       |             |            | 200            | SD     | Itraconazole<br />Hydroxy-Itr.                               | mbe                  | [Barone  1993](5-References)       |
 |       |             |            |                |        | Itraconazole<br />Hydroxy-Itr.                               | mbe                  | [Barone  1998b](5-References)      |
+|       |             |            |                |        | Itraconazole                                                 | mv                   | [Neuvonen 1996](5-References)      |
 |       |             |            | 200            | OD     | Itraconazole                                                 | mv                   | [Hardin  1988](5-References)       |
 |       |             |            |                | BID    | Itraconazole                                                 | mbe                  | [Barone  1993](5-References)       |
 |       |             |            |                |        | Itraconazole<br />Hydroxy-Itr.                               | mv                   | [Hardin  1988](5-References)       |

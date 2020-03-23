@@ -32,11 +32,13 @@
 
 **Mouton 2006** Mouton JW, van Peer A, de Beule K, Van Vliet A, Donnelly JP, Soons PA. Pharmacokinetics of itraconazole and hydroxyitraconazole in healthy subjects after single and multiple doses of a novel formulation. Antimicrob Agents Chemother. 2006 Dec;50(12):4096-102.
 
+**Neuvonen 1996** Neuvonen PJ, Varhe A, Olkkola KT. The effect of ingestion time interval on the interaction between itraconazole and triazolam. Clin Pharmacol Ther. 1996 Sep;60(3):326-31.
+
 **Nishimura 2013** Nishimura M, Yaguti H, Yoshitsugu H, Naito S, Satoh T. Tissue distribution of mRNA expression of human cytochrome P450 isoforms assessed by high-sensitivity real-time reverse transcription PCR. Yakugaku Zasshi. 2003 May;123(5):369-75.
 
 **Olkkola 1994** Olkkola KT, Backman JT, Neuvonen PJ. Midazolam should be avoided in patients receiving the systemic antimycotics ketoconazole or itraconazole. Clin Pharmacol Ther. 1994 May;55(5):481-5.
 
-**PK-Sim Ontogeny Database Version 7.3** (https://github.com/Open-Systems-Pharmacology/OSPSuite.Documentation/blob/38cf71b384cfc25cfa0ce4d2f3addfd32757e13b/PK-Sim%20Ontogeny%20Database%20Version%207.3.pdf)	
+**PK-Sim Ontogeny Database Version 7.3** (https://github.com/Open-Systems-Pharmacology/OSPSuite.Documentation/blob/38cf71b384cfc25cfa0ce4d2f3addfd32757e13b/PK-Sim%20Ontogeny%20Database%20Version%207.3.pdf)
 
 **PubChem CID 108222** (https://pubchem.ncbi.nlm.nih.gov/compound/Hydroxy-Itraconazole)
 
@@ -59,3 +61,5 @@
 **Van de Velde 1996** Van de Velde VJ, Van Peer AP, Heykants JJ, Woestenborghs RJ, Van Rooy P, De Beule KL, Cauwenbergh GF. Effect of food on the pharmacokinetics of a new hydroxypropyl-beta-cyclodextrin formulation of itraconazole. Pharmacotherapy. 1996 May-Jun;16(3):424-8.
 
 **Van Peer 1989** Van Peer A, Woestenborghs R, Heykants J, Gasparini R, Gauwenbergh G. The effects of food and dose on the oral systemic availability of itraconazole in healthy subjects. Eur J Clin Pharmacol. 1989;36(4):423-6.
+
+**Varhe 1994** Varhe A, Olkkola KT, Neuvonen PJ. Oral triazolam is potentially hazardous to patients receiving systemic antimycotics ketoconazole or itraconazole. Clin Pharmacol Ther. 1994 Dec;56(6 Pt 1):601-7.
