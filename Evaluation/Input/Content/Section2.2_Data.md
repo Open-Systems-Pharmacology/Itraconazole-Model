@@ -71,34 +71,34 @@ The following dosing senarios were simulated and compared to respective data:
 
 | Route | Formulation | Food state | Dose<br />[mg] | Dosing | PK Data                                                      | Used for<sup>†</sup> | Reference                          |
 | ----- | ----------- | ---------- | -------------- | ------ | ------------------------------------------------------------ | -------------------- | ---------------------------------- |
-| iv    | -           | -          | 100            | SD     | Itraconazole                                                 | mv                   | [Heykants  1989](5-References)     |
-|       |             |            | 200            | OD     | Itraconazole<br />Hydroxy-Itr.                               | mbb                  | [Mouton  2006](5-References)       |
-| po    | solution    | fasted     | 100            | SD     | Itraconazole                                                 | mbb                  | [Van de  Velde 1996](5-References) |
-|       |             |            |                |        | Itraconazole<br />Hydroxy-Itr.                               | mbb                  | [Van  Peer 1989](5-References)     |
-|       |             |            |                | OD     | Itraconazole<br />Hydroxy-Itr.<br />Keto-Itr.<br />N-Desalkyl-Itr. | mbb                  | [Templeton  2008](5-References)    |
-|       |             |            | 200            | OD     | Itraconazole<br />Hydroxy-Itr.                               | mbb                  | [Barone  1998a](5-References)      |
-|       |             | fed        | 100            | SD     | Itraconazole<br />Hydroxy-Itr.                               | mbe                  | [Van de  Velde 1996](5-References) |
-|       |             |            |                |        | Itraconazole                                                 | mbe                  | [Heykants  1989](5-References)     |
-|       |             |            | 200            | SD     | Itraconazole<br />Hydroxy-Itr.                               | mbe                  | [Barone  1998b](5-References)      |
-|       |             |            |                | OD     | Itraconazole<br />Hydroxy-Itr.                               | mbe                  | [Barone  1998a](5-References)      |
-|       | capsule     | fasted     | 100            | SD     | Itraconazole                                                 | mbe                  | [Van  Peer 1989](5-References)     |
-|       |             |            |                | BID    | Itraconazole                                                 | mv                   | [Kivistö 1997](5-References)       |
-|       |             |            | 200            | SD     | Itraconazole<br />Hydroxy-Itr.                               | mbe                  | [Barone  1993](5-References)       |
-|       |             |            |                |        | Itraconazole                                                 | mv                   | [Neuvonen 1996](5-References)      |
-|       |             |            |                | OD     | Itraconazole                                                 | mbe                  | [Jalava  1997](5-References)       |
-|       |             |            |                |        | Itraconazole                                                 | mbe                  | [Olkkola  1994](5-References)      |
-|       |             |            |                |        | Itraconazole                                                 | mv                   | [Varhe 1994](5-References)         |
-|       |             | fed        | 100            | SD     | Itraconazole                                                 | mbe                  | [Van Peer  1989](5-References)     |
-|       |             |            |                | OD     | Itraconazole                                                 | mbe                  | [Van Peer  1989](5-References)     |
-|       |             |            |                |        | Itraconazole                                                 | mv                   | [Hardin  1988](5-References)       |
-|       |             |            | 200            | SD     | Itraconazole<br />Hydroxy-Itr.                               | mbe                  | [Barone  1993](5-References)       |
-|       |             |            |                |        | Itraconazole<br />Hydroxy-Itr.                               | mbe                  | [Barone  1998b](5-References)      |
-|       |             |            |                |        | Itraconazole                                                 | mv                   | [Neuvonen 1996](5-References)      |
-|       |             |            | 200            | OD     | Itraconazole                                                 | mv                   | [Hardin  1988](5-References)       |
-|       |             |            |                | BID    | Itraconazole                                                 | mbe                  | [Barone  1993](5-References)       |
-|       |             |            |                |        | Itraconazole<br />Hydroxy-Itr.                               | mv                   | [Hardin  1988](5-References)       |
+| iv    | -           | -          | 100            | SD     | Itraconazole                                                 | mv                   | [Heykants  1989](#5-References)     |
+|       |             |            | 200            | OD     | Itraconazole<br />Hydroxy-Itr.                               | mbb                  | [Mouton  2006](#5-References)       |
+| po    | solution    | fasted     | 100            | SD     | Itraconazole                                                 | mbb                  | [Van de  Velde 1996](#5-References) |
+|       |             |            |                |        | Itraconazole<br />Hydroxy-Itr.                               | mbb                  | [Van  Peer 1989](#5-References)     |
+|       |             |            |                | OD     | Itraconazole<br />Hydroxy-Itr.<br />Keto-Itr.<br />N-Desalkyl-Itr. | mbb                  | [Templeton  2008](#5-References)    |
+|       |             |            | 200            | OD     | Itraconazole<br />Hydroxy-Itr.                               | mbb                  | [Barone  1998a](#5-References)      |
+|       |             | fed        | 100            | SD     | Itraconazole<br />Hydroxy-Itr.                               | mbe                  | [Van de  Velde 1996](#5-References) |
+|       |             |            |                |        | Itraconazole                                                 | mbe                  | [Heykants  1989](#5-References)     |
+|       |             |            | 200            | SD     | Itraconazole<br />Hydroxy-Itr.                               | mbe                  | [Barone  1998b](#5-References)      |
+|       |             |            |                | OD     | Itraconazole<br />Hydroxy-Itr.                               | mbe                  | [Barone  1998a](#5-References)      |
+|       | capsule     | fasted     | 100            | SD     | Itraconazole                                                 | mbe                  | [Van  Peer 1989](#5-References)     |
+|       |             |            |                | BID    | Itraconazole                                                 | mv                   | [Kivistö 1997](#5-References)       |
+|       |             |            | 200            | SD     | Itraconazole<br />Hydroxy-Itr.                               | mbe                  | [Barone  1993](#5-References)       |
+|       |             |            |                |        | Itraconazole                                                 | mv                   | [Neuvonen 1996](#5-References)      |
+|       |             |            |                | OD     | Itraconazole                                                 | mbe                  | [Jalava  1997](#5-References)       |
+|       |             |            |                |        | Itraconazole                                                 | mbe                  | [Olkkola  1994](#5-References)      |
+|       |             |            |                |        | Itraconazole                                                 | mv                   | [Varhe 1994](#5-References)         |
+|       |             | fed        | 100            | SD     | Itraconazole                                                 | mbe                  | [Van Peer  1989](#5-References)     |
+|       |             |            |                | OD     | Itraconazole                                                 | mbe                  | [Van Peer  1989](#5-References)     |
+|       |             |            |                |        | Itraconazole                                                 | mv                   | [Hardin  1988](#5-References)       |
+|       |             |            | 200            | SD     | Itraconazole<br />Hydroxy-Itr.                               | mbe                  | [Barone  1993](#5-References)       |
+|       |             |            |                |        | Itraconazole<br />Hydroxy-Itr.                               | mbe                  | [Barone  1998b](#5-References)      |
+|       |             |            |                |        | Itraconazole                                                 | mv                   | [Neuvonen 1996](#5-References)      |
+|       |             |            | 200            | OD     | Itraconazole                                                 | mv                   | [Hardin  1988](#5-References)       |
+|       |             |            |                | BID    | Itraconazole                                                 | mbe                  | [Barone  1993](#5-References)       |
+|       |             |            |                |        | Itraconazole<br />Hydroxy-Itr.                               | mv                   | [Hardin  1988](#5-References)       |
 
-<sup>†</sup> *mbb* model building basic: used to inform the basic model parameters (see [Section 2.3.4](#2.3.4-Automated-Parameter-Identification)); *mbe* model building extended: used to inform solubility (and formulation-depenendent) parameter only (see [Section 2.3.4](#2.3.4-Automated-Parameter-Identification)); *mv* model verification only
+<sup>†</sup> *mbb* model building basic: used to inform the basic model parameters (see [Section 2.3.4](#234-Automated-Parameter-Identification)); *mbe* model building extended: used to inform solubility (and formulation-depenendent) parameter only (see [Section 2.3.4](#234-Automated-Parameter-Identification)); *mv* model verification only
 
 
 

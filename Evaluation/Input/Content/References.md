@@ -1,5 +1,3 @@
-
-
 **Barone 1993** Barone JA, Koh JG, Bierman RH, Colaizzi JL, Swanson KA, Gaffar MC, Moskovitz BL, Mechlinski W, Van de Velde V. Food interaction and steady-state pharmacokinetics of itraconazole capsules in healthy male volunteers. Antimicrob Agents Chemother. 1993 Apr;37(4):778-84.
 
 **Barone 1998a** Barone JA, Moskovitz BL, Guarnieri J, Hassell AE, Colaizzi JL, Bierman RH, Jessen L. Food interaction and steady-state pharmacokinetics of itraconazole oral solution in healthy volunteers. Pharmacotherapy. 1998 Mar-Apr;18(2):295-301.
