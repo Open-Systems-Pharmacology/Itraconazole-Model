@@ -4,5 +4,3 @@ The herein presented model represents an update of the itraconazole model publis
 
 In comparison to the published version by Hanke *et al.* 2018 ([Hanke 2018](#5-References)), the dissolution and solubility has been optimized and updated for the administration of itraconazole capsules in fasted state (by integrating additional data ([Jalava 1997](#5-References)) into the optimization routine).
 
-The presented itraconazole PBPK model as well as the respective evaluation plan and PBPK report are provided open-source  (https://github.com/Open-Systems-Pharmacology/Itraconazole-model).
-
