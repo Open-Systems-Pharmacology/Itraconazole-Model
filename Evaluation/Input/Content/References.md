@@ -48,8 +48,6 @@
 
 **Rodrigues 1999** Rodrigues AD. Integrated cytochrome P450 reaction phenotyping: attempting to bridge the gap between cDNA-expressed cytochromes P450 and native human liver microsomes. Biochem Pharmacol. 1999 Mar 1;57(5):465-80.
 
-**Schlender 2016** Schlender JF, Meyer M, Thelen K, Krauss M, Willmann S, Eissing T, Jaehde U. Development of a Whole-Body Physiologically Based Pharmacokinetic Approach to Assess the Pharmacokinetics of Drugs in Elderly Individuals. Clin Pharmacokinet. 2016 Dec;55(12):1573-1589. 
-
 **Shityakov 2014** Shityakov S, Förster C. In silico structure-based screening of versatile P-glycoprotein inhibitors using polynomial empirical scoring functions. Adv Appl Bioinform Chem. 2014 Mar 24;7:1-9.
 
 **Taupitz 2013** Taupitz T, Dressman JB, Buchanan CM, Klein S. Cyclodextrin-water soluble polymer ternary complexes enhance the solubility and dissolution behaviour of poorly soluble drugs. Case example: itraconazole. Eur J Pharm Biopharm. 2013 Apr;83(3):378-87.
@@ -61,3 +59,5 @@
 **Van Peer 1989** Van Peer A, Woestenborghs R, Heykants J, Gasparini R, Gauwenbergh G. The effects of food and dose on the oral systemic availability of itraconazole in healthy subjects. Eur J Clin Pharmacol. 1989;36(4):423-6.
 
 **Varhe 1994** Varhe A, Olkkola KT, Neuvonen PJ. Oral triazolam is potentially hazardous to patients receiving systemic antimycotics ketoconazole or itraconazole. Clin Pharmacol Ther. 1994 Dec;56(6 Pt 1):601-7.
+
+**Willmann 2007** Willmann S, Höhn K, Edginton A, Sevestre M, Solodenko J, Weiss W, Lippert J, Schmitt W. Development of a physiology-based whole-body population model for assessing the influence of individual variability on the pharmacokinetics of drugs. J Pharmacokinet Pharmacodyn. 2007, 34(3):401-31.
