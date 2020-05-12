@@ -1,8 +1,8 @@
 The PBPK model for itraconazole was developed and verified with clinical pharmacokinetic data.
 
-The model was built and evaluated covering data from various clinical studies, covering a dosing range from 100 to 200 mg in different formulations (solution *vs.* capsule), administered under fasted conditions or together with food.
+The model was built and evaluated covering data from various clinical studies, covering a dosing range of 100 to 200 mg in different formulations (solution *vs.* capsule), administered under fasting conditions or together with food.
 
-The model quantifies in particular metabolism and inhibition via CYP3A4.
+The model quantifies metabolism via CYP3A4 and inhibition of CYP3A4.
 
 The next sections show:
 
