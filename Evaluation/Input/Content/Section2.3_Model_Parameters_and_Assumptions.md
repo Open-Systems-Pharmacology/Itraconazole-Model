@@ -22,7 +22,7 @@ After testing the available organ-plasma partition coefficient and cell permeabi
 
 ### 2.3.3 Metabolism and Elimination
 
-Two sequential metabolic pathways via CYP3A4 were implemented in the model via Michaelis-Menten kinetics for all four compounds. If available, *in vitro* determined unbound K<sub>m</sub> values ([Isoherranen 2004](#5-References)) served as starting values. Respective k<sub>cat</sub> values were optimized to best match clinical data (see also [Section 2.3.5](#235-Automated-Parameter-Identification)).
+Metabolic pathways via CYP3A4 were implemented in the model via Michaelis-Menten kinetics for all four compounds. If available, *in vitro* determined unbound K<sub>m</sub> values ([Isoherranen 2004](#5-References)) served as starting values. Respective k<sub>cat</sub> values were optimized to best match clinical data (see also [Section 2.3.5](#235-Automated-Parameter-Identification)).
 
 The CYP3A4 expression profile is based on high-sensitivity real-time RT-PCR ([Nishimura 2013](#5-References)). Absolute tissue-specific concentrations were obtained by considering the respective absolute concentration in the liver. The PK-Sim® Ontogeny Database Version 7.3 provides a default value for CYP3A4 reference concentration in the liver (compare [Rodrigues 1999](#5-References) and assume 40 mg protein per gram liver). 
 
