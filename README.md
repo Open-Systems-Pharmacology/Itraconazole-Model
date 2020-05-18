@@ -1,9 +1,7 @@
 # Itraconazole-Model
 Whole-body PBPK model of itraconazole. 
 
-<p align="center">
-  <img src="Itraconazole.png">
-</p> 
+<a title="Itraconazole" href="https://commons.wikimedia.org/wiki/File:Itraconazole2DACS.svg"><img width="512" alt="Itraconazole2DACS" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Itraconazole2DACS.svg/512px-Itraconazole2DACS.svg.png"></a>
 
 
 
