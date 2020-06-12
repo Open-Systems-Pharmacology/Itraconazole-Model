@@ -1,13 +1,13 @@
 ### 2.2.1 In vitro and physicochemical data
 
-A literature search was performed to collect available information on physicochemical properties of itraconazole and metabolites. The obtained information from literature is summarized in the table below and is used for model building.
+A literature search was performed to collect available information on physicochemical properties of itraconazole and metabolites. The obtained information from literature is summarized in the table below and was used for model building. Note that not all parameters were used in the final model. A list of final model parameters is provided below in later sections. 
 
 #### Itraconazole
 
 | **Parameter**                         | **Unit**                   | **Value**      | Source                            | **Description**                                              |
 | :------------------------------------ | -------------------------- | -------------- | --------------------------------- | ------------------------------------------------------------ |
 | MW                                    | g/mol                      | 705.633        | [DrugBank DB01167](#5-References) | Molecular weight                                             |
-| pK<sub>a,base</sub>                   |                            | 3.7            | [Heykants 1989](#5-References)    | Basic dissociation constant                                  |
+| pK<sub>a,base</sub>                   |                            | 3.7            | [Heykants 1989](#5-References)    | acid dissociation constant of conjugate acid; compound type: base |
 | Solubility (pH)                       | mg/L                       | 8.0<br />(6.5) | [Taupitz 2013](#5-References)     | Solubility in FaSSIF (fasted state simulated intestinal fluid) |
 | logP                                  |                            | 5.66           | [Heykants 1989](#5-References)    | Partition coefficient between octanol and water              |
 | fu                                    | %                          | 0.2            | [Heykants 1989](#5-References)    | Fraction unbound in plasma                                   |
@@ -65,7 +65,7 @@ A literature search was performed to collect available information on physicoche
 
 ### 2.2.2 Clinical data
 
-A literature search was performed to collect available clinical data on itraconazole and its metabolite in adults. The itraconazole model was built and verified using various clinical studies, covering a dosing range of 100 to 200 mg with different formulations (solution *vs.* capsule), administered under fasting conditions or together with food.
+A literature search was performed to collect available clinical data on itraconazole and its metabolites in adults. The itraconazole model was built and verified using various clinical studies, covering a dosing range of 100 to 200 mg with different formulations (solution *vs.* capsule), administered under fasting conditions or together with food.
 
 The following dosing senarios were simulated and compared to respective data:
 

@@ -8,7 +8,7 @@ A specific set of parameters (see below) was optimized using the Parameter Ident
 
 Once the appropriate structural model was identified, additional parameters for different administration states (*solution fed*, *capsule fasted* and *capsule fed* versus the reference state *solution fasted*) were empirically optimized. Clinical data suggest that the bioavailability of itraconazole is enhanced when an oral solution is given in the fasted state compared to fed state ([Van de Welde 1996](#5-References), [Barone 1998a](#5-References)). In contrast, a meal significantly enhances the amount of itraconazole absorbed after administrations of capsules (in comparison to fasted state administrations of capsules) ([Barone 1993a](#5-References)). To reflect these observations, relevant parameters, in particular solubility and those describing dissolution kinetics (of capsules), were assumed to be variable between these four scenarios and were independently identified using the Parameter Identification module provided in PK-Sim®.
 
-Details about input data (physicochemical, *in vitro* and clinical) can be found in [Section 2.2](#22-Data).
+Details about compound properties (physicochemical, *in vitro* and clinical) can be found in [Section 2.2](#22-Data).
 
 Details about the structural model and its parameters can be found in [Section 2.3](#23-Model-Parameters-and-Assumptions).
 

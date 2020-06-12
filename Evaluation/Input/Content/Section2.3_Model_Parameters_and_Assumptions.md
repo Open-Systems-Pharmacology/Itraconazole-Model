@@ -6,7 +6,7 @@ Herein, the model parameter `Specific intestinal permeability` was optimized to 
 
 In a next step, the solubility was optimized for the *solution fed* scenario (in comparison to *solution fasted*).
 
-Then, for the scenarios *capsule fasted* and *capsule fed*, solubility and the dissolution of the capsules (implemented via an empirical Weibull dissolution) were optimized. 
+Then, for the scenarios *capsule fasted* and *capsule fed*, solubility and the dissolution rate of the capsules (implemented via an empirical Weibull dissolution) were optimized. 
 
 The results of the optimization can be found in [Section 2.3.5](#235-Automated-Parameter-Identification).
 

@@ -4946,7 +4946,7 @@
           "Parameters": [
             {
               "Name": "In vitro Vmax/recombinant enzyme",
-              "Value": 4.1716224833,
+              "Value": 0.543,
               "Unit": "nmol/min/pmol rec. enzyme",
               "ValueOrigin": {
                 "Source": "Publication",
