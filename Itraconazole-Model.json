@@ -4754,23 +4754,6 @@
           ]
         }
       ],
-      "Permeability": [
-        {
-          "Name": "Fit",
-          "IsDefault": false,
-          "Parameters": [
-            {
-              "Name": "Permeability",
-              "Value": 0.1111202419,
-              "Unit": "cm/min",
-              "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Description": "Fit"
-              }
-            }
-          ]
-        }
-      ],
       "PkaTypes": [
         {
           "Type": "Base",
