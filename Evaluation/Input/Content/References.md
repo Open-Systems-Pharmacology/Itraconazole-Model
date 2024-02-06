@@ -42,7 +42,7 @@
 
 **PubChem CID 53865186** (https://pubchem.ncbi.nlm.nih.gov/compound/Keto-Itraconazole)
 
-**PubChem CID 53789808** (https://pubchem.ncbi.nlm.nih.gov/compound/N-Desalkyl-itraconazole)
+**PubChem CID 53789808** (https://pubchem.ncbi.nlm.nih.gov/compound/169437521#section=Computed-Properties)
 
 **Riccardi 2015** Riccardi K, Cawley S, Yates PD, Chang C, Funk C, Niosi M, Lin J, Di L. Plasma Protein Binding of Challenging Compounds. J Pharm Sci. 2015 Aug;104(8):2627-36.
 
