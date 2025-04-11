@@ -1,5 +1,5 @@
 {
-    "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v2.1/OSP_Qualification_Plan_Schema.json",
+    "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v3.3/OSP_Qualification_Plan_Schema.json",
     "Projects": [
         {
             "Id": "Itraconazole",
@@ -121,111 +121,112 @@
         },
         "AllPlots": [
             {
-                "SectionId": 33,
+                "SectionReference": "concentration-time-profiles",
                 "Project": "Itraconazole",
                 "Simulation": "100 mg IV SD"
             },
             {
-                "SectionId": 33,
+                "SectionReference": "concentration-time-profiles",
                 "Project": "Itraconazole",
                 "Simulation": "200 mg IV MD"
             },
             {
-                "SectionId": 33,
+                "SectionReference": "concentration-time-profiles",
                 "Project": "Itraconazole",
                 "Simulation": "po 100 mg SD caps fast"
             },
             {
-                "SectionId": 33,
+                "SectionReference": "concentration-time-profiles",
                 "Project": "Itraconazole",
                 "Simulation": "po 200 mg MD OD caps fast"
             },
             {
-                "SectionId": 33,
+                "SectionReference": "concentration-time-profiles",
                 "Project": "Itraconazole",
                 "Simulation": "po 100 mg MD BID caps fast"
             },
             {
-                "SectionId": 33,
+                "SectionReference": "concentration-time-profiles",
                 "Project": "Itraconazole",
                 "Simulation": "po 200 mg SD caps fast"
             },
             {
-                "SectionId": 33,
+                "SectionReference": "concentration-time-profiles",
                 "Project": "Itraconazole",
                 "Simulation": "po 100 mg MD OD caps fed 1"
             },
             {
-                "SectionId": 33,
+                "SectionReference": "concentration-time-profiles",
                 "Project": "Itraconazole",
                 "Simulation": "po 100 mg MD OD caps fed 2"
             },
             {
-                "SectionId": 33,
+                "SectionReference": "concentration-time-profiles",
                 "Project": "Itraconazole",
                 "Simulation": "po 100 mg SD caps fed"
             },
             {
-                "SectionId": 33,
+                "SectionReference": "concentration-time-profiles",
                 "Project": "Itraconazole",
                 "Simulation": "po 200 mg MD BID caps fed 1"
             },
             {
-                "SectionId": 33,
+               "SectionReference": "concentration-time-profiles",
                 "Project": "Itraconazole",
                 "Simulation": "po 200 mg MD BID caps fed 2"
             },
             {
-                "SectionId": 33,
+                "SectionReference": "concentration-time-profiles",
                 "Project": "Itraconazole",
                 "Simulation": "po 200 mg MD OD caps fed"
             },
             {
-                "SectionId": 33,
+                "SectionReference": "concentration-time-profiles",
                 "Project": "Itraconazole",
                 "Simulation": "po 200 mg SD caps fed"
             },
             {
-                "SectionId": 33,
+                "SectionReference": "concentration-time-profiles",
                 "Project": "Itraconazole",
                 "Simulation": "po 200 mg SD caps fed 2"
             },
             {
-                "SectionId": 33,
+                "SectionReference": "concentration-time-profiles",
                 "Project": "Itraconazole",
                 "Simulation": "po 100 mg MD OD sol fast"
             },
             {
-                "SectionId": 33,
+                "SectionReference": "concentration-time-profiles",
                 "Project": "Itraconazole",
                 "Simulation": "po 100 mg SD sol fast"
             },
             {
-                "SectionId": 33,
+                "SectionReference": "concentration-time-profiles",
                 "Project": "Itraconazole",
                 "Simulation": "po 200 mg MD OD sol fast"
             },
             {
-                "SectionId": 33,
+                "SectionReference": "concentration-time-profiles",
                 "Project": "Itraconazole",
                 "Simulation": "po 100 mg SD  sol fed"
             },
             {
-                "SectionId": 33,
+                "SectionReference": "concentration-time-profiles",
                 "Project": "Itraconazole",
                 "Simulation": "po 200 mg MD OD sol fed"
             },
             {
-                "SectionId": 33,
+                "SectionReference": "concentration-time-profiles",
                 "Project": "Itraconazole",
                 "Simulation": "po 200 mg SD sol fed"
             }
         ],
         "GOFMergedPlots": [
             {
-                "SectionId": 32,
+                "SectionReference": "diagnostics-plots",
                 "Title": "Itraconazole concentration in plasma",
-                "PlotType": "predictedVsObserved|residualsOverTime",
+                "PlotTypes": ["predictedVsObserved",
+                "residualsOverTime"],
                 "Groups": [
                     {
                         "Caption": "Itraconazole iv",
@@ -519,9 +520,10 @@
                 ]
             },
             {
-                "SectionId": 32,
+                "SectionReference": "diagnostics-plots",
                 "Title": "Hydroxy-Itraconazole concentration in plasma",
-                "PlotType": "predictedVsObserved|residualsOverTime",
+                "PlotTypes": ["predictedVsObserved",
+                "residualsOverTime"],
                 "Groups": [
                     {
                         "Caption": "Itraconazole iv",
@@ -654,9 +656,10 @@
                 ]
             },
             {
-                "SectionId": 32,
+                "SectionReference": "diagnostics-plots",
                 "Title": "Keto-Itraconazole concentration in plasma",
-                "PlotType": "predictedVsObserved|residualsOverTime",
+                "PlotTypes": ["predictedVsObserved",
+                "residualsOverTime"],
                 "Groups": [
                     {
                         "Caption": "Itraconazole po solution fasted",
@@ -681,9 +684,10 @@
                 ]
             },
             {
-                "SectionId": 32,
+                "SectionReference": "diagnostics-plots",
                 "Title": "N-desalkyl-Itraconazole concentration in plasma",
-                "PlotType": "predictedVsObserved|residualsOverTime",
+                "PlotTypes": ["predictedVsObserved",
+                "residualsOverTime"],
                 "Groups": [
                     {
                         "Caption": "Itraconazole po solution fasted",
@@ -717,97 +721,97 @@
             "Project": "Itraconazole",
             "Name": "Itraconazole",
             "Type": "Compound",
-            "SectionId": 31
+            "SectionReference": "final-input-parameters"
         },
         {
             "Project": "Itraconazole",
             "Name": "Hydroxy-Itraconazole",
             "Type": "Compound",
-            "SectionId": 31
+            "SectionReference": "final-input-parameters"
         },
         {
             "Project": "Itraconazole",
             "Name": "Keto-Itraconazole",
             "Type": "Compound",
-            "SectionId": 31
+            "SectionReference": "final-input-parameters"
         },
         {
             "Project": "Itraconazole",
             "Name": "N-desalkyl-Itraconazole",
             "Type": "Compound",
-            "SectionId": 31
+            "SectionReference": "final-input-parameters"
         },
         {
             "Project": "Itraconazole",
             "Name": "Capsule fasted",
             "Type": "Formulation",
-            "SectionId": 31
+            "SectionReference": "final-input-parameters"
         },
         {
             "Project": "Itraconazole",
             "Name": "Capsule fed",
             "Type": "Formulation",
-            "SectionId": 31
+            "SectionReference": "final-input-parameters"
         }
     ],
     "Sections": [
         {
-            "Id": 1,
-            "Title": "1 Introduction",
+            "Reference": "introduction",
+            "Title": "Introduction",
             "Content": "Content/Section1_Introduction.md"
         },
         {
-            "Id": 2,
-            "Title": "2 Methods",
+            "Reference": "methods",
+            "Title": "Methods",
             "Content": "Content/Section2_Methods.md",
             "Sections": [
                 {
-                    "Id": 21,
-                    "Title": "2.1 Modeling Strategy",
+                    "Reference": "modeling-strategy",
+                    "Title": "Modeling Strategy",
                     "Content": "Content/Section2.1_Modeling_Strategy.md"
                 },
                 {
-                    "Id": 22,
-                    "Title": "2.2 Data",
+                    "Reference": "data",
+                    "Title": "Data",
                     "Content": "Content/Section2.2_Data.md"
                 },
                 {
-                    "Id": 23,
-                    "Title": "2.3 Model Parameters and Assumptions",
+                    "Reference": "model-parameters-and-assumptions",
+                    "Title": "Model Parameters and Assumptions",
                     "Content": "Content/Section2.3_Model_Parameters_and_Assumptions.md"
                 }
             ]
         },
         {
-            "Id": 3,
-            "Title": "3 Results and Discussion",
+            "Reference": "results-and-discussion",
+            "Title": "Results and Discussion",
             "Content": "Content/Section3_Results_and_Discussion.md",
             "Sections": [
                 {
-                    "Id": 31,
-                    "Title": "3.1 Final input parameters",
+                    "Reference": "final-input-parameters",
+                    "Title": "Final input parameters",
                     "Content": "Content/Input_table.md"
                 },
                 {
-                    "Id": 32,
-                    "Title": "3.2 Diagnostics Plots",
+                    "Reference": "diagnostics-plots",
+                    "Title": "Diagnostics Plots",
                     "Content": "Content/GOF_diagnostics.md"
                 },
                 {
-                    "Id": 33,
-                    "Title": "3.3 Concentration-Time Profiles",
+                    "Reference": "concentration-time-profiles",
+                    "Title": "Concentration-Time Profiles",
                     "Content": "Content/Concentration_time_profiles.md"
                 }
             ]
         },
         {
-            "Id": 4,
-            "Title": "4 Conclusion",
+            "Reference": "conclusion",
+            "Title": "Conclusion",
             "Content": "Content/Section4_Conclusion.md"
         },
         {
-            "Id": 5,
-            "Title": "5 References",
+            "Reference": "references",
+            "Title": "References",
             "Content": "Content/References.md"
         }
     ],
