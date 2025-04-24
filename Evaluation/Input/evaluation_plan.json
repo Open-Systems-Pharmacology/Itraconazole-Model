@@ -298,7 +298,7 @@
                     },
                     {
                         "Caption": "Itraconazole po solution fed",
-                        "Symbol": "Cross",
+                        "Symbol": "CircleOpen",
                         "OutputMappings": [
                             {
                                 "Project": "Itraconazole",
@@ -394,7 +394,7 @@
                     },
                     {
                         "Caption": "Itraconazole po capsule fed",
-                        "Symbol": "Point",
+                        "Symbol": "Hexagon",
                         "OutputMappings": [
                             {
                                 "Project": "Itraconazole",
@@ -581,7 +581,7 @@
                     },
                     {
                         "Caption": "Itraconazole po solution fed",
-                        "Symbol": "Cross",
+                        "Symbol": "Hexagon",
                         "OutputMappings": [
                             {
                                 "Project": "Itraconazole",
@@ -628,7 +628,7 @@
                     },
                     {
                         "Caption": "Itraconazole po capsule fed",
-                        "Symbol": "Point",
+                        "Symbol": "Asterisk",
                         "OutputMappings": [
                             {
                                 "Project": "Itraconazole",
